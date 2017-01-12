@@ -1,0 +1,22 @@
+# Creator : Routino - http://www.routino.org/
+# Source : Based on OpenStreetMap data from http://www.openstreetmap.org/
+# License : http://www.openstreetmap.org/copyright
+#
+#Latitude	Longitude	Section 	Section 	Total   	Total   	Point	Turn	Bearing	Highway
+#        	         	Distance	Duration	Distance	Duration	Type 	    	       	       
+ 34.736958	 135.400192	 0.000 km	 0.0 min	  0.0 km	   0 min	Waypt#1		 -4	tertiary road
+ 34.736530	 135.400348	 0.049 km	 0.7 min	  0.0 km	   1 min	Junct	 +0	 +2	residential road
+ 34.736679	 135.400805	 0.045 km	 0.7 min	  0.1 km	   1 min	Junct	 +1	 +2	residential road
+ 34.736483	 135.401890	 0.101 km	 1.5 min	  0.2 km	   3 min	Junct	 +0	 +2	residential road
+ 34.736210	 135.403365	 0.136 km	 2.0 min	  0.3 km	   5 min	Junct	 +0	 +2	residential road
+ 34.736006	 135.404485	 0.104 km	 1.6 min	  0.4 km	   7 min	Junct	 +0	 +2	residential road
+ 34.735777	 135.405750	 0.118 km	 1.8 min	  0.6 km	   8 min	Junct	 +1	 -4	path
+ 34.735722	 135.405777	 0.006 km	 0.1 min	  0.6 km	   8 min	Junct	 +0	 -4	path
+ 34.735421	 135.405936	 0.041 km	 0.6 min	  0.6 km	   9 min	Junct	 +2	 -4	path
+ 34.735348	 135.405957	 0.008 km	 0.1 min	  0.6 km	   9 min	Junct	 +0	 -4	path
+ 34.734932	 135.405998	 0.045 km	 0.7 min	  0.7 km	  10 min	Junct	 +0	 -4	path
+ 34.734611	 135.405962	 0.035 km	 0.5 min	  0.7 km	  10 min	Junct	 +0	 +3	path
+ 34.734516	 135.405994	 0.010 km	 0.2 min	  0.7 km	  10 min	Junct	 +0	 -4	path
+ 34.734448	 135.405992	 0.007 km	 0.1 min	  0.7 km	  11 min	Junct	 +0	 -4	path
+ 34.733760	 135.405942	 0.076 km	 1.1 min	  0.8 km	  12 min	Junct	 -1	 +2	path
+ 34.733746	 135.406263	 0.029 km	 0.4 min	  0.8 km	  12 min	Waypt#2			

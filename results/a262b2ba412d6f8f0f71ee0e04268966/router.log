@@ -1,0 +1,16 @@
+router --shortest --speed-steps=4 --width=0 --property-footroute=55 --highway-secondary=60 --property-bridge=50 --property-bicycleroute=55 --speed-cycleway=4 --speed-trunk=4 --speed-secondary=4 --property-paved=90 --highway-track=95 --speed-primary=4 --highway-trunk=40 --speed-residential=4 --highway-path=100 --highway-primary=50 --speed-motorway=0 --speed-unclassified=4 --length=0 --lon2=135.40647 --weight=0 --lat2=34.73389 --highway-residential=90 --highway-service=90 --property-multilane=25 --highway-tertiary=70 --highway-steps=0 --lon1=135.40021 --height=0 --property-tunnel=50 --reverse= --transport=wheelchair --turns=0 --speed-tertiary=4 --highway-unclassified=80 --lat1=34.73696 --oneway=0 --highway-motorway=0 --speed-track=4 --speed-ferry=10 --highway-ferry=20 --loop= --highway-cycleway=95 --speed-path=4 --speed-service=4 --dir=data
+
+Loaded Files: nodes, segments, ways & relations
+Found Closest Point: Waypoint 1
+Waypoint 1 is segment 18977 (node 12258 -> 12303): 135.400192 34.736958 = 0.000 km
+Found Closest Point: Waypoint 2
+Waypoint 2 is node 28593: 135.406263 34.733746 = 0.024 km
+Routing from waypoint 1 to waypoint 2
+Found Start Route: Nodes checked = 3
+Found Finish Route: Nodes checked = 10
+Found Middle Route: Super-Nodes checked = 662
+Found Combined Route: Nodes = 23
+Routed OK
+Generated Result Outputs
+
+Time: 0.000 CPU / 0.037 elapsed

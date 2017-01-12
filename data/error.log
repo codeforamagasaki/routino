@@ -1,0 +1,440 @@
+Node 435021276 has an unrecognised tag 'barrier' = 'cycle_barrier' (in tagging rules); ignoring it.
+Node 926008645 has an unrecognised tag 'barrier' = 'cycle_barrier' (in tagging rules); ignoring it.
+Node 926008832 has an unrecognised tag 'barrier' = 'cycle_barrier' (in tagging rules); ignoring it.
+Node 926541281 has an unrecognised tag 'barrier' = 'fence' (in tagging rules); ignoring it.
+Node 926541596 has an unrecognised tag 'barrier' = 'cycle_barrier' (in tagging rules); ignoring it.
+Node 1257493739 has an unrecognised tag 'barrier' = 'cycle_barrier' (in tagging rules); ignoring it.
+Node 1257494037 has an unrecognised tag 'barrier' = 'cycle_barrier' (in tagging rules); ignoring it.
+Node 1583528071 has an unrecognised tag 'barrier' = 'cycle_barrier' (in tagging rules); ignoring it.
+Node 1623834888 has an unrecognised tag 'barrier' = 'cycle_barrier' (in tagging rules); ignoring it.
+Node 1623834924 has an unrecognised tag 'barrier' = 'cycle_barrier' (in tagging rules); ignoring it.
+Node 1695018890 has an unrecognised tag 'barrier' = 'cycle_barrier' (in tagging rules); ignoring it.
+Node 1833074951 has an unrecognised tag 'barrier' = 'cycle_barrier' (in tagging rules); ignoring it.
+Node 1833074952 has an unrecognised tag 'barrier' = 'cycle_barrier' (in tagging rules); ignoring it.
+Node 1833074966 has an unrecognised tag 'barrier' = 'cycle_barrier' (in tagging rules); ignoring it.
+Node 1833074968 has an unrecognised tag 'barrier' = 'cycle_barrier' (in tagging rules); ignoring it.
+Node 1906508426 has an unrecognised tag 'wheelchair' = 'unknown' (after tagging rules); using 'yes'.
+Node 1906508927 has an unrecognised tag 'wheelchair' = 'unknown' (after tagging rules); using 'yes'.
+Node 2043295419 has an unrecognised tag 'barrier' = 'cycle_barrier' (in tagging rules); ignoring it.
+Node 2118764700 has an unrecognised tag 'wheelchair' = 'unknown' (after tagging rules); using 'yes'.
+Node 2138658778 has an unrecognised tag 'access' = 'customers' (in tagging rules); using 'no'.
+Node 2142697780 has an unrecognised tag 'barrier' = 'lidt' (in tagging rules); ignoring it.
+Node 2449040656 has an unrecognised tag 'barrier' = 'cycle_barrier' (in tagging rules); ignoring it.
+Node 2449040666 has an unrecognised tag 'barrier' = 'cycle_barrier' (in tagging rules); ignoring it.
+Node 2450177911 has an unrecognised tag 'barrier' = 'hampshire_gate' (in tagging rules); ignoring it.
+Node 2701199317 has an unrecognised tag 'access' = 'customers' (in tagging rules); using 'no'.
+Node 3087690981 has an unrecognised tag 'barrier' = 'cycle_barrier' (in tagging rules); ignoring it.
+Node 3087690993 has an unrecognised tag 'barrier' = 'cycle_barrier' (in tagging rules); ignoring it.
+Node 3087690997 has an unrecognised tag 'barrier' = 'cycle_barrier' (in tagging rules); ignoring it.
+Node 3087691004 has an unrecognised tag 'barrier' = 'cycle_barrier' (in tagging rules); ignoring it.
+Node 3090772038 has an unrecognised tag 'barrier' = 'cycle_barrier' (in tagging rules); ignoring it.
+Node 3090772042 has an unrecognised tag 'barrier' = 'cycle_barrier' (in tagging rules); ignoring it.
+Node 3107250657 has an unrecognised tag 'barrier' = 'cycle_barrier' (in tagging rules); ignoring it.
+Node 3107250658 has an unrecognised tag 'barrier' = 'cycle_barrier' (in tagging rules); ignoring it.
+Node 3372015700 has an unrecognised tag 'barrier' = 'cycle_barrier' (in tagging rules); ignoring it.
+Node 3372015701 has an unrecognised tag 'barrier' = 'cycle_barrier' (in tagging rules); ignoring it.
+Node 3386705493 has an unrecognised tag 'access' = 'customers' (in tagging rules); using 'no'.
+Node 3780759308 has an unrecognised tag 'access' = 'customers' (in tagging rules); using 'no'.
+Node 3780759332 has an unrecognised tag 'access' = 'customers' (in tagging rules); using 'no'.
+Node 3814915756 has an unrecognised tag 'access' = 'customers' (in tagging rules); using 'no'.
+Node 3837063102 has an unrecognised tag 'access' = 'customers' (in tagging rules); using 'no'.
+Node 3848548680 has an unrecognised tag 'access' = 'customers' (in tagging rules); using 'no'.
+Node 3857966495 has an unrecognised tag 'access' = 'customers' (in tagging rules); using 'no'.
+Node 3891253048 has an unrecognised tag 'barrier' = 'cycle_barrier' (in tagging rules); ignoring it.
+Node 3978182453 has an unrecognised tag 'access' = 'customers' (in tagging rules); using 'no'.
+Node 3978182455 has an unrecognised tag 'access' = 'customers' (in tagging rules); using 'no'.
+Node 4037751119 has an unrecognised tag 'access' = 'customers' (in tagging rules); using 'no'.
+Node 4046787162 has an unrecognised tag 'access' = 'customers' (in tagging rules); using 'no'.
+Node 4071235075 has an unrecognised tag 'access' = 'access:conditional=yes @ Mo-Fr 08:45-19:00;Sa 08:45-17:00;Su, PH 09:00-17:00' (in tagging rules); using 'no'.
+Node 4111824503 has an unrecognised tag 'access' = 'customers' (in tagging rules); using 'no'.
+Node 4111824504 has an unrecognised tag 'access' = 'customers' (in tagging rules); using 'no'.
+Node 4172715193 has an unrecognised tag 'barrier' = 'cycle_barrier' (in tagging rules); ignoring it.
+Node 4177490802 has an unrecognised tag 'access' = 'customers' (in tagging rules); using 'no'.
+Node 4254513599 has an unrecognised tag 'barrier' = 'cycle_barrier' (in tagging rules); ignoring it.
+Node 4254513654 has an unrecognised tag 'barrier' = 'cycle_barrier' (in tagging rules); ignoring it.
+Node 4283365040 has an unrecognised tag 'access' = 'customers' (in tagging rules); using 'no'.
+Node 4293427629 has an unrecognised tag 'access' = 'customers' (in tagging rules); using 'no'.
+Node 4315387333 has an unrecognised tag 'access' = 'customers' (in tagging rules); using 'no'.
+Node 4340903771 has an unrecognised tag 'barrier' = 'cycle_barrier' (in tagging rules); ignoring it.
+Node 4343247516 has an unrecognised tag 'barrier' = 'cycle_barrier' (in tagging rules); ignoring it.
+Node 4431065294 has an unrecognised tag 'barrier' = 'cycle_barrier' (in tagging rules); ignoring it.
+Node 4447305554 has an unrecognised tag 'access' = 'customers' (in tagging rules); using 'no'.
+Node 4452907482 has an unrecognised tag 'access' = 'customers' (in tagging rules); using 'no'.
+Node 4452907483 has an unrecognised tag 'access' = 'customers' (in tagging rules); using 'no'.
+Node 4474453461 has an unrecognised tag 'access' = 'customers' (in tagging rules); using 'no'.
+Node 4474453465 has an unrecognised tag 'access' = 'customers' (in tagging rules); using 'no'.
+Way 24604219 has only one node.
+Way 24604355 has only one node.
+Way 34618834 has only one node.
+Way 35813981 has only one node.
+Way 43007234 has only one node.
+Way 80765213 has only one node.
+Way 80765215 has only one node.
+Way 83249577 has only one node.
+Way 87365310 has only one node.
+Way 87365340 has an unrecognised tag 'psv' = 'bus' (after tagging rules); using 'no'.
+Way 92830419 has only one node.
+Way 93316880 has only one node.
+Way 93316888 has only one node.
+Way 111495881 has only one node.
+Way 122480477 has only one node.
+Way 122483279 has only one node.
+Way 122483296 has only one node.
+Way 126148074 has only one node.
+Way 126574940 has only one node.
+Way 127319352 has only one node.
+Way 127362323 has only one node.
+Way 127362329 has only one node.
+Way 128414524 has only one node.
+Way 128622455 has only one node.
+Way 128628539 has only one node.
+Way 128628544 has only one node.
+Way 128628561 has only one node.
+Way 128628568 has only one node.
+Way 128750026 has only one node.
+Way 128750375 has only one node.
+Way 128766331 has only one node.
+Way 128766340 has only one node.
+Way 128828707 has only one node.
+Way 130806182 has only one node.
+Way 130806225 has only one node.
+Way 130806236 has only one node.
+Way 131492339 has only one node.
+Way 131598141 has only one node.
+Way 131598291 has only one node.
+Way 131598453 has only one node.
+Way 131598455 has only one node.
+Way 131598595 has only one node.
+Way 131598730 has only one node.
+Way 131598755 has only one node.
+Way 131598758 has only one node.
+Way 131598767 has only one node.
+Way 132152517 has only one node.
+Way 132152527 has only one node.
+Way 133387650 has only one node.
+Way 133809722 has only one node.
+Way 135722026 has only one node.
+Way 135722044 has only one node.
+Way 135723057 has only one node.
+Way 135724184 has only one node.
+Way 135728594 has only one node.
+Way 135729740 has only one node.
+Way 136685592 has only one node.
+Way 136685602 has only one node.
+Way 137623894 has only one node.
+Way 139511158 has only one node.
+Way 139613386 has only one node.
+Way 140228821 has only one node.
+Way 143859319 has only one node.
+Way 143859885 has only one node.
+Way 143860320 has only one node.
+Way 144851913 has only one node.
+Way 144857676 has only one node.
+Way 144857849 has only one node.
+Way 144857969 has only one node.
+Way 144858323 has only one node.
+Way 144858516 has only one node.
+Way 144858836 has only one node.
+Way 144859763 has only one node.
+Way 144859773 has only one node.
+Way 144860426 has only one node.
+Way 144860865 has only one node.
+Way 144861940 has only one node.
+Way 144862441 has only one node.
+Way 144863192 has only one node.
+Way 144863292 has only one node.
+Way 144863932 has only one node.
+Way 144865294 has only one node.
+Way 144865516 has only one node.
+Way 147096004 has only one node.
+Way 147101134 has only one node.
+Way 147861907 has only one node.
+Way 147861987 has only one node.
+Way 147862086 has only one node.
+Way 147862130 has only one node.
+Way 147862204 has only one node.
+Way 148650818 has only one node.
+Way 151230993 has only one node.
+Way 154081629 has only one node.
+Way 154081657 has only one node.
+Way 154082796 has only one node.
+Way 154082825 has only one node.
+Way 155149766 has only one node.
+Way 157119830 has only one node.
+Way 157119835 has only one node.
+Way 159275685 has only one node.
+Way 161505858 has only one node.
+Way 161620240 has only one node.
+Way 164141581 has only one node.
+Way 167429535 has only one node.
+Way 170414739 has only one node.
+Way 170414769 has only one node.
+Way 172595516 has only one node.
+Way 174997586 has only one node.
+Way 176307001 has only one node.
+Way 183007170 has only one node.
+Way 183007234 has only one node.
+Way 187984697 has only one node.
+Way 187984819 has only one node.
+Way 187984867 has only one node.
+Way 187984924 has only one node.
+Way 188174640 has only one node.
+Way 188174642 has only one node.
+Way 188185587 has only one node.
+Way 188291654 has only one node.
+Way 188291663 has only one node.
+Way 188302325 has only one node.
+Way 188336747 has only one node.
+Way 188336775 has only one node.
+Way 188589096 has only one node.
+Way 188589101 has only one node.
+Way 188589109 has only one node.
+Way 188589111 has only one node.
+Way 188589117 has only one node.
+Way 198246859 has only one node.
+Way 198723624 has only one node.
+Way 199426082 has only one node.
+Way 199426086 has only one node.
+Way 199426119 has only one node.
+Way 199426120 has only one node.
+Way 199426124 has only one node.
+Way 199429016 has only one node.
+Way 199434504 has only one node.
+Way 199434559 has only one node.
+Way 199495313 has only one node.
+Way 200704079 has only one node.
+Way 200704092 has only one node.
+Way 200704097 has only one node.
+Way 200704185 has only one node.
+Way 203855148 has only one node.
+Way 205043351 has only one node.
+Way 206357058 has only one node.
+Way 206357059 has only one node.
+Way 206922180 has only one node.
+Way 214985905 has only one node.
+Way 231446346 has only one node.
+Way 236254361 has only one node.
+Way 241874780 has only one node.
+Way 243354706 has only one node.
+Way 243354711 has only one node.
+Way 243533581 has only one node.
+Way 244255415 has only one node.
+Way 244649023 has only one node.
+Way 244952475 has only one node.
+Way 245143103 has only one node.
+Way 245454624 is an area but not closed.
+Way 245741596 has only one node.
+Way 245811521 has only one node.
+Way 245811527 has only one node.
+Way 245922031 has only one node.
+Way 245922073 has only one node.
+Way 246371196 has only one node.
+Way 246441899 has only one node.
+Way 246617860 has an unrecognised tag 'bicycle' = 'dismount' (after tagging rules); using 'no'.
+Way 247828445 has an unrecognised tag 'bicycle' = 'dismount' (after tagging rules); using 'no'.
+Way 249182932 has only one node.
+Way 250777952 has only one node.
+Way 250954298 has only one node.
+Way 251159174 has only one node.
+Way 251578988 has only one node.
+Way 251585287 has only one node.
+Way 252635330 has only one node.
+Way 253933273 has only one node.
+Way 253995766 has only one node.
+Way 254744156 has only one node.
+Way 254939373 has only one node.
+Way 254968635 has only one node.
+Way 255330026 has only one node.
+Way 255346384 has only one node.
+Way 255349531 has only one node.
+Way 255354473 has only one node.
+Way 255357097 has only one node.
+Way 255357873 has only one node.
+Way 257208628 has only one node.
+Way 258462109 has only one node.
+Way 259174867 has only one node.
+Way 259344793 has only one node.
+Way 288437210 has only one node.
+Way 288641587 has only one node.
+Way 298261225 has only one node.
+Way 303123981 has only one node.
+Way 306145641 has only one node.
+Way 307987544 has only one node.
+Way 308354726 has only one node.
+Way 308678087 has an unrecognised tag 'surface' = 'アスファルト' (in tagging rules); ignoring it.
+Way 308852532 has an unrecognised tag 'surface' = 'as' (in tagging rules); ignoring it.
+Way 331607566 has only one node.
+Way 335757527 has an unrecognised tag 'bicycle' = 'dismount' (after tagging rules); using 'no'.
+Way 335757528 has an unrecognised tag 'bicycle' = 'dismount' (after tagging rules); using 'no'.
+Way 341345708 has only one node.
+Way 352693535 has an unrecognised tag 'highway' = 'corridor' (in tagging rules); ignoring it.
+Way 353127568 has an unrecognised tag 'highway' = 'corridor' (in tagging rules); ignoring it.
+Way 360439074 has an unrecognised tag 'highway' = 'corridor' (in tagging rules); ignoring it.
+Way 360558654 has only one node.
+Way 370962573 has an unrecognised tag 'highway' = 'corridor' (in tagging rules); ignoring it.
+Way 374332978 has only one node.
+Way 374332980 has only one node.
+Way 374657405 has only one node.
+Way 374657457 has only one node.
+Way 374657491 has only one node.
+Way 387215361 has only one node.
+Way 388969352 has only one node.
+Way 395125783 has only one node.
+Way 395125786 has only one node.
+Way 395606503 has an unrecognised tag 'bicycle' = 'dismount' (after tagging rules); using 'no'.
+Way 395606507 has an unrecognised tag 'bicycle' = 'dismount' (after tagging rules); using 'no'.
+Way 395606512 has an unrecognised tag 'bicycle' = 'dismount' (after tagging rules); using 'no'.
+Way 395606535 has an unrecognised tag 'bicycle' = 'dismount' (after tagging rules); using 'no'.
+Way 396426228 has only one node.
+Way 396430958 has only one node.
+Way 397016791 has only one node.
+Way 397115627 has only one node.
+Way 397120980 has only one node.
+Way 397144872 has only one node.
+Way 397144887 has only one node.
+Way 397272984 has an unrecognised tag 'bicycle' = 'dismount' (after tagging rules); using 'no'.
+Way 403120040 has an unrecognised tag 'bicycle' = 'dismount' (after tagging rules); using 'no'.
+Way 404949028 has an unrecognised tag 'highway' = 'elevator' (in tagging rules); ignoring it.
+Way 405118386 has only one node.
+Way 405118420 has only one node.
+Way 405118432 has only one node.
+Way 405118447 has only one node.
+Way 406388490 has an unrecognised tag 'highway' = 'corridor' (in tagging rules); ignoring it.
+Way 407174185 has only one node.
+Way 409067774 has an unrecognised tag 'highway' = 'corridor' (in tagging rules); ignoring it.
+Way 427617749 has only one node.
+Way 430074901 has an unrecognised tag 'bicycle' = 'dismount' (after tagging rules); using 'no'.
+Way 430074902 has an unrecognised tag 'bicycle' = 'dismount' (after tagging rules); using 'no'.
+Way 430078489 has an unrecognised tag 'bicycle' = 'dismount' (after tagging rules); using 'no'.
+Way 430348498 has an unrecognised tag 'bicycle' = 'dismount' (after tagging rules); using 'no'.
+Way 430348499 has an unrecognised tag 'bicycle' = 'dismount' (after tagging rules); using 'no'.
+Way 430348500 has an unrecognised tag 'bicycle' = 'dismount' (after tagging rules); using 'no'.
+Way 430612777 has an unrecognised tag 'bicycle' = 'dismount' (after tagging rules); using 'no'.
+Way 430612778 has an unrecognised tag 'bicycle' = 'dismount' (after tagging rules); using 'no'.
+Way 430612779 has an unrecognised tag 'bicycle' = 'dismount' (after tagging rules); using 'no'.
+Way 430614500 has an unrecognised tag 'bicycle' = 'dismount' (after tagging rules); using 'no'.
+Way 431878934 has an unrecognised tag 'bicycle' = 'dismount' (after tagging rules); using 'no'.
+Way 431878935 has an unrecognised tag 'bicycle' = 'dismount' (after tagging rules); using 'no'.
+Way 431878936 has an unrecognised tag 'bicycle' = 'dismount' (after tagging rules); using 'no'.
+Way 435611982 has an unrecognised tag 'highway' = 'elevator' (in tagging rules); ignoring it.
+Way 435927176 has an unrecognised tag 'bicycle' = 'dismount' (after tagging rules); using 'no'.
+Way 435927178 has an unrecognised tag 'bicycle' = 'dismount' (after tagging rules); using 'no'.
+Way 435927180 has an unrecognised tag 'bicycle' = 'dismount' (after tagging rules); using 'no'.
+Way 435972811 has an unrecognised tag 'bicycle' = 'dismount' (after tagging rules); using 'no'.
+Way 435972812 has an unrecognised tag 'bicycle' = 'dismount' (after tagging rules); using 'no'.
+Way 435972813 has an unrecognised tag 'bicycle' = 'dismount' (after tagging rules); using 'no'.
+Way 435972814 has an unrecognised tag 'bicycle' = 'dismount' (after tagging rules); using 'no'.
+Way 435972815 has an unrecognised tag 'bicycle' = 'dismount' (after tagging rules); using 'no'.
+Way 435972816 has an unrecognised tag 'bicycle' = 'dismount' (after tagging rules); using 'no'.
+Way 435972817 has an unrecognised tag 'bicycle' = 'dismount' (after tagging rules); using 'no'.
+Way 435972818 has an unrecognised tag 'bicycle' = 'dismount' (after tagging rules); using 'no'.
+Way 435972819 has an unrecognised tag 'bicycle' = 'dismount' (after tagging rules); using 'no'.
+Way 435972821 has an unrecognised tag 'bicycle' = 'dismount' (after tagging rules); using 'no'.
+Way 435972822 has an unrecognised tag 'bicycle' = 'dismount' (after tagging rules); using 'no'.
+Way 435972823 has an unrecognised tag 'bicycle' = 'dismount' (after tagging rules); using 'no'.
+Way 435983040 has only one node.
+Way 436266211 has an unrecognised tag 'bicycle' = 'dismount' (after tagging rules); using 'no'.
+Way 436266213 has an unrecognised tag 'bicycle' = 'dismount' (after tagging rules); using 'no'.
+Way 437163511 is cyclebothways but not oneway; ignoring cyclebothways tag.
+Way 437241391 has an unrecognised tag 'bicycle' = 'dismount' (after tagging rules); using 'no'.
+Way 437241393 has an unrecognised tag 'bicycle' = 'dismount' (after tagging rules); using 'no'.
+Way 437241394 has an unrecognised tag 'bicycle' = 'dismount' (after tagging rules); using 'no'.
+Way 437241395 has an unrecognised tag 'bicycle' = 'dismount' (after tagging rules); using 'no'.
+Way 437241396 has an unrecognised tag 'bicycle' = 'dismount' (after tagging rules); using 'no'.
+Way 443317545 has only one node.
+Way 443317567 has only one node.
+Way 443317568 has only one node.
+Way 443317580 has only one node.
+Way 444353295 has only one node.
+Way 444372409 has only one node.
+Way 445100888 has only one node.
+Way 445100901 has only one node.
+Way 448095922 has only one node.
+Way 449085148 has an unrecognised tag 'wheelchair' = 'y' (after tagging rules); using 'no'.
+Way 454527771 has an unrecognised tag 'bicycle' = 'dismount' (after tagging rules); using 'no'.
+Way 454527777 has an unrecognised tag 'bicycle' = 'dismount' (after tagging rules); using 'no'.
+Way 454527778 has an unrecognised tag 'bicycle' = 'dismount' (after tagging rules); using 'no'.
+Way 454527779 has an unrecognised tag 'bicycle' = 'dismount' (after tagging rules); using 'no'.
+Way 454628186 has only one node.
+Way 455075568 has an unrecognised tag 'bicycle' = 'dismount' (after tagging rules); using 'no'.
+Way 455075576 has an unrecognised tag 'bicycle' = 'dismount' (after tagging rules); using 'no'.
+Way 455075586 has an unrecognised tag 'bicycle' = 'dismount' (after tagging rules); using 'no'.
+Way 455562847 has only one node.
+Way 456016487 has an unrecognised tag 'bicycle' = 'dismount' (after tagging rules); using 'no'.
+Way 456016489 has an unrecognised tag 'bicycle' = 'dismount' (after tagging rules); using 'no'.
+Way 456016495 has an unrecognised tag 'bicycle' = 'dismount' (after tagging rules); using 'no'.
+Way 456016498 has an unrecognised tag 'bicycle' = 'dismount' (after tagging rules); using 'no'.
+Way 456016504 has an unrecognised tag 'bicycle' = 'dismount' (after tagging rules); using 'no'.
+Way 456016511 has an unrecognised tag 'bicycle' = 'dismount' (after tagging rules); using 'no'.
+Way 456016514 has an unrecognised tag 'bicycle' = 'dismount' (after tagging rules); using 'no'.
+Way 456016517 has an unrecognised tag 'bicycle' = 'dismount' (after tagging rules); using 'no'.
+Way 456016521 has an unrecognised tag 'bicycle' = 'dismount' (after tagging rules); using 'no'.
+Way 456028266 has an unrecognised tag 'bicycle' = 'dismount' (after tagging rules); using 'no'.
+Way 456724767 has only one node.
+Way 457405930 has an unrecognised tag 'bicycle' = 'dismount' (after tagging rules); using 'no'.
+Way 460158106 has only one node.
+Way 460175460 has only one node.
+Way 460732686 has an unrecognised tag 'highway' = 'corridor' (in tagging rules); ignoring it.
+Way 461902133 has only one node.
+Way 462465350 has only one node.
+Way 463094215 has only one node.
+Relation 170227 is a turn restriction but has no 'to' way.
+Relation 3881400 is a turn restriction but has no 'to' way.
+Relation 3899727 is a turn restriction but has no 'from' way.
+Relation 3899727 is a turn restriction but has no 'via' node.
+Relation 6122959 is a turn restriction but has no 'to' way.
+Relation 6122962 is a turn restriction but has no 'to' way.
+Segment connecting nodes 402311742 and 1713794424 in way 159275679 is duplicated.
+Segment connecting nodes 1404336063 and 1404336073 is duplicated.
+Segment connecting nodes 1583522369 and 1583522375 is duplicated.
+Segment connecting nodes 1713794487 and 1713794573 in way 159275678 is duplicated.
+Segment connecting nodes 1713870094 and 1762859549 in way 159281199 is duplicated.
+Segment connecting nodes 1721532542 and 1721532556 is duplicated.
+Segment connecting nodes 1821924243 and 1939567821 is duplicated.
+Segment connecting nodes 1867168948 and 2534948165 in way 246452704 is duplicated.
+Segment connecting nodes 1867168948 and 2534948165 is duplicated.
+Segment connecting nodes 2010716906 and 2046235501 is duplicated.
+Segment connecting nodes 2301154579 and 4432839770 is duplicated (discarded the area).
+Segment connecting nodes 2511687889 and 2511687895 in way 243810271 is duplicated.
+Segment connecting nodes 2753402593 and 2753402595 is duplicated.
+Segment connecting nodes 2868069593 and 2886633100 is duplicated.
+Segment connecting nodes 3462851333 and 3909772842 is duplicated (discarded the area).
+Segment connecting nodes 3462851333 and 3909772843 is duplicated (discarded the area).
+Segment connecting nodes 3909772838 and 3909772843 is duplicated (discarded the area).
+Segment connecting nodes 3909772839 and 3909772842 is duplicated (discarded the area).
+Segment connecting nodes 3909772853 and 3909772854 is duplicated (discarded the area).
+Segment connecting nodes 3909772854 and 3909772855 is duplicated (discarded the area).
+Segment connecting nodes 3909772855 and 3909772856 is duplicated (discarded the area).
+Segment connecting nodes 3909772856 and 3909772857 is duplicated (discarded the area).
+Segment connecting nodes 3909772857 and 3909772858 is duplicated (discarded the area).
+Segment connecting nodes 3909772859 and 3909772860 is duplicated (discarded the area).
+Segment connecting nodes 3909772860 and 3909772861 is duplicated (discarded the area).
+Segment connecting nodes 3909772861 and 3909772862 is duplicated (discarded the area).
+Segment connecting nodes 3909772862 and 3909772863 is duplicated (discarded the area).
+Segment connecting nodes 3918610692 and 3918610693 is duplicated.
+Segment connecting nodes 3992319734 and 3992319735 is duplicated (discarded the area).
+Segment connecting nodes 3992319735 and 3992319736 is duplicated (discarded the area).
+Segment connecting nodes 3992319736 and 3992319737 is duplicated (discarded the area).
+Segment connecting nodes 3992319737 and 3999594302 is duplicated (discarded the area).
+Segment connecting nodes 3999594302 and 3999594316 is duplicated (discarded the area).
+Segment connecting nodes 3999594316 and 3999594317 is duplicated (discarded the area).
+Segment connecting nodes 4007491336 and 4007491347 is duplicated (discarded the area).
+Segment connecting nodes 4109310604 and 4109310605 is duplicated.
+Segment connecting nodes 4293419516 and 4293419519 is duplicated (discarded the area).
+Segment connecting nodes 4330678288 and 4330692051 is duplicated.
+Segment connecting nodes 4330678789 and 4330692051 is duplicated.
+Segment connecting nodes 4378987895 and 4378987896 in way 440179043 is duplicated.
+Segment connecting nodes 4378987900 and 4378987901 in way 440179043 is duplicated.
+Segment connecting nodes 4378987905 and 4378987906 in way 440179043 is duplicated.
+Segment connecting nodes 4432839738 and 4432839740 is duplicated (discarded the area).
+Segment connecting nodes 4437853942 and 4437853943 is duplicated.
+Segment connecting nodes 4459017179 and 4459042762 is duplicated.
+Segment connecting nodes 4459042761 and 4459042762 is duplicated.
+Segment connecting nodes 4582278329 and 4582278330 is duplicated.
+Segment connecting nodes 4582278329 and 4582278330 is duplicated.
+Route Relation 2442336 contains Way 183433909 that does not exist in the Routino database (not a highway?).
+Route Relation 2442337 for Bicycle contains Way 436266213 that does not allow Bicycle transport; overriding.
+Turn Relation 4107347 is not needed because the 'to' way is oneway towards the 'via' node.
+Turn Relation 6029860 is not stored because the 'via' node is not part of the 'to' way.
+Turn Relation 6034528 is not needed because the 'from' way is oneway away from the 'via' node.
+Turn Relation 6034528 is not needed because the 'to' way is oneway towards the 'via' node.

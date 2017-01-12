@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Routino" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.topografix.com/GPX/1/1" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+<metadata>
+<desc>Creator : Routino - http://www.routino.org/</desc>
+<copyright author="Based on OpenStreetMap data from http://www.openstreetmap.org/">
+<license>http://www.openstreetmap.org/copyright</license>
+</copyright>
+</metadata>
+<rte>
+<name>Shortest route</name>
+<desc>Shortest route between &#39;start&#39; and &#39;finish&#39; waypoints</desc>
+<rtept lat="34.736958" lon="135.400192"><name>WAYPT01</name>
+<desc>South on &#39;tertiary road&#39; for 0.049 km, 0.7 min</desc></rtept>
+<rtept lat="34.736530" lon="135.400348"><name>TRIP001</name>
+<desc>East on &#39;residential road&#39; for 0.045 km, 0.7 min</desc></rtept>
+<rtept lat="34.736679" lon="135.400805"><name>TRIP002</name>
+<desc>East on &#39;residential road&#39; for 0.101 km, 1.5 min</desc></rtept>
+<rtept lat="34.736483" lon="135.401890"><name>TRIP003</name>
+<desc>East on &#39;residential road&#39; for 0.136 km, 2.0 min</desc></rtept>
+<rtept lat="34.736210" lon="135.403365"><name>TRIP004</name>
+<desc>East on &#39;residential road&#39; for 0.104 km, 1.6 min</desc></rtept>
+<rtept lat="34.736006" lon="135.404485"><name>TRIP005</name>
+<desc>East on &#39;residential road&#39; for 0.118 km, 1.8 min</desc></rtept>
+<rtept lat="34.735777" lon="135.405750"><name>TRIP006</name>
+<desc>South on &#39;path&#39; for 0.006 km, 0.1 min</desc></rtept>
+<rtept lat="34.735722" lon="135.405777"><name>TRIP007</name>
+<desc>South on &#39;path&#39; for 0.041 km, 0.6 min</desc></rtept>
+<rtept lat="34.735421" lon="135.405936"><name>TRIP008</name>
+<desc>South on &#39;path&#39; for 0.008 km, 0.1 min</desc></rtept>
+<rtept lat="34.735348" lon="135.405957"><name>TRIP009</name>
+<desc>South on &#39;path&#39; for 0.045 km, 0.7 min</desc></rtept>
+<rtept lat="34.734932" lon="135.405998"><name>TRIP010</name>
+<desc>South on &#39;path&#39; for 0.035 km, 0.5 min</desc></rtept>
+<rtept lat="34.734611" lon="135.405962"><name>TRIP011</name>
+<desc>South-East on &#39;path&#39; for 0.010 km, 0.2 min</desc></rtept>
+<rtept lat="34.734516" lon="135.405994"><name>TRIP012</name>
+<desc>South on &#39;path&#39; for 0.007 km, 0.1 min</desc></rtept>
+<rtept lat="34.734448" lon="135.405992"><name>TRIP013</name>
+<desc>South on &#39;path&#39; for 0.076 km, 1.1 min</desc></rtept>
+<rtept lat="34.733760" lon="135.405942"><name>TRIP014</name>
+<desc>East on &#39;path&#39; for 0.029 km, 0.4 min</desc></rtept>
+<rtept lat="34.733746" lon="135.406263"><name>WAYPT02</name>
+<desc>Total Journey 0.8 km, 12 minutes</desc></rtept>
+</rte>
+</gpx>

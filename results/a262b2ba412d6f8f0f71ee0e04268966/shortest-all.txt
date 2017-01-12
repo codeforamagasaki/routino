@@ -1,0 +1,29 @@
+# Creator : Routino - http://www.routino.org/
+# Source : Based on OpenStreetMap data from http://www.openstreetmap.org/
+# License : http://www.openstreetmap.org/copyright
+#
+#Latitude	Longitude	    Node	Type	Segment	Segment	Total	Total  	Speed	Bearing	Highway
+#        	         	        	    	Dist   	Durat'n	Dist 	Durat'n	     	       	       
+ 34.736958	 135.400192	      -1 	Waypt#1	0.000	 0.00	 0.00	  0.0			
+ 34.736586	 135.400327	   12303*	Junct-	0.043	 0.65	 0.04	  0.6	  4	 163	tertiary road
+ 34.736530	 135.400348	   12309*	Change	0.006	 0.09	 0.05	  0.7	  4	 162	tertiary road
+ 34.736521	 135.400409	   12325*	Junct-	0.005	 0.08	 0.05	  0.8	  4	 100	residential road
+ 34.736679	 135.400805	   12428*	Junct	0.040	 0.60	 0.09	  1.4	  4	  64	residential road
+ 34.736483	 135.401890	   12663*	Junct	0.101	 1.52	 0.20	  2.9	  4	 102	residential road
+ 34.736372	 135.402492	   12835*	Junct-	0.056	 0.84	 0.25	  3.8	  4	 102	residential road
+ 34.736310	 135.402823	   12919*	Junct-	0.030	 0.45	 0.28	  4.2	  4	 102	residential road
+ 34.736210	 135.403365	   13032*	Junct	0.050	 0.75	 0.33	  5.0	  4	 102	residential road
+ 34.736006	 135.404485	   13290*	Junct	0.104	 1.56	 0.43	  6.5	  4	 102	residential road
+ 34.735777	 135.405750	   13648*	Junct	0.118	 1.77	 0.55	  8.3	  4	 102	residential road
+ 34.735722	 135.405777	   13658*	Junct	0.006	 0.09	 0.56	  8.4	  4	 158	path
+ 34.735433	 135.405825	   13684 	Inter	0.031	 0.47	 0.59	  8.9	  4	 172	path
+ 34.735421	 135.405936	   13735*	Junct	0.010	 0.15	 0.60	  9.0	  4	  98	path
+ 34.735348	 135.405957	   13744*	Junct	0.008	 0.12	 0.61	  9.1	  4	 166	path
+ 34.734932	 135.405998	   13762*	Junct	0.045	 0.68	 0.65	  9.8	  4	 175	path
+ 34.734611	 135.405962	   13745*	Junct	0.035	 0.53	 0.69	 10.3	  4	 185	path
+ 34.734569	 135.405987	   13754 	Inter	0.005	 0.08	 0.69	 10.4	  4	 154	path
+ 34.734516	 135.405994	   13759*	Junct	0.005	 0.08	 0.70	 10.5	  4	 173	path
+ 34.734458	 135.406003	   13765 	Inter	0.006	 0.09	 0.70	 10.6	  4	 173	path
+ 34.734448	 135.405992	   13758*	Junct	0.001	 0.02	 0.70	 10.6	  4	 221	path
+ 34.733760	 135.405942	   13741 	Junct	0.076	 1.14	 0.78	 11.7	  4	 183	path
+ 34.733746	 135.406263	   28593 	Waypt#2	0.029	 0.44	 0.81	 12.2	  4	  92	path
