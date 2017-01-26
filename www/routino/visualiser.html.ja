@@ -66,16 +66,16 @@ along with this program. If not, see http://www.gnu.org/licenses/.
 This web page allows visualisation of the data that Routino uses for routing.
 Only data relevant for routing is displayed and some will therefore be excluded.
 <div class="center">
-<a target="other" href="http://www.routino.org/">Routino Website</a>
+<a target="other" href="http://www.routino.org/">ルーティーノ　ウェブサイト</a>
 |
-<a target="other" href="documentation/">Documentation</a>
+<a target="other" href="documentation/">取扱説明書</a>
 </div>
 </div>
 
 <div class="hideshow_box">
 <span id="hideshow_language_show" onclick="hideshow_show('language');" class="hideshow_show">+</span>
 <span id="hideshow_language_hide" onclick="hideshow_hide('language');" class="hideshow_hide">-</span>
-<span class="hideshow_title">Language</span>
+<span class="hideshow_title">言語</span>
 
 <div id="hideshow_language_div" style="display: none;">
 <table>
@@ -115,7 +115,7 @@ server will only return data if the selected area is small enough.
 </div>
 
 <div class="hideshow_box">
-<span class="hideshow_title">Status</span>
+<span class="hideshow_title">状態</span>
 <div id="result_status">
 <div id="result_status_no_data">
 <b><i>No data displayed</i></b>
@@ -215,7 +215,7 @@ The colours of the triangles depend on the bearing of the highway segment.
 Each segment of the chosen type of highway is drawn.
 <form name="highways" id="highways" action="#" method="get" onsubmit="return false;">
 <table>
-<tr><td>Motorway: <td><input name="highway" type="radio" value="motorway" onchange="displayData('highway');">
+<tr><td>自動車専用道: <td><input name="highway" type="radio" value="motorway" onchange="displayData('highway');">
 <tr><td>Trunk: <td><input name="highway" type="radio" value="trunk" onchange="displayData('highway');">
 <tr><td>Primary: <td><input name="highway" type="radio" value="primary" onchange="displayData('highway');" checked>
 <tr><td>Secondary: <td><input name="highway" type="radio" value="secondary" onchange="displayData('highway');">
@@ -224,10 +224,10 @@ Each segment of the chosen type of highway is drawn.
 <tr><td>Residential: <td><input name="highway" type="radio" value="residential" onchange="displayData('highway');">
 <tr><td>Service: <td><input name="highway" type="radio" value="service" onchange="displayData('highway');">
 <tr><td>Track: <td><input name="highway" type="radio" value="track" onchange="displayData('highway');">
-<tr><td>Cycleway: <td><input name="highway" type="radio" value="cycleway" onchange="displayData('highway');">
+<tr><td>自転車専用道: <td><input name="highway" type="radio" value="cycleway" onchange="displayData('highway');">
 <tr><td>Path: <td><input name="highway" type="radio" value="path" onchange="displayData('highway');">
-<tr><td>Steps: <td><input name="highway" type="radio" value="steps" onchange="displayData('highway');">
-<tr><td>Ferry: <td><input name="highway" type="radio" value="ferry" onchange="displayData('highway');">
+<tr><td>階段: <td><input name="highway" type="radio" value="steps" onchange="displayData('highway');">
+<tr><td>フェリー: <td><input name="highway" type="radio" value="ferry" onchange="displayData('highway');">
 </table>
 </form>
 </div>
@@ -241,13 +241,13 @@ Each segment of the chosen type of highway is drawn.
 Each segment allowed for the chosen type of transport is drawn.
 <form name="transports" id="transports" action="#" method="get" onsubmit="return false;">
 <table>
-<tr><td>Foot: <td><input name="transport" type="radio" value="foot" onchange="displayData('transport');">
-<tr><td>Horse: <td><input name="transport" type="radio" value="horse" onchange="displayData('transport');">
-<tr><td>Wheelchair:<td><input name="transport" type="radio" value="wheelchair" onchange="displayData('transport');">
-<tr><td>Bicycle: <td><input name="transport" type="radio" value="bicycle" onchange="displayData('transport');">
+<tr><td>徒歩: <td><input name="transport" type="radio" value="foot" onchange="displayData('transport');">
+<tr><td>馬: <td><input name="transport" type="radio" value="horse" onchange="displayData('transport');">
+<tr><td>車椅子:<td><input name="transport" type="radio" value="wheelchair" onchange="displayData('transport');">
+<tr><td>自転車: <td><input name="transport" type="radio" value="bicycle" onchange="displayData('transport');">
 <tr><td>Moped: <td><input name="transport" type="radio" value="moped" onchange="displayData('transport');">
-<tr><td>Motorcycle:<td><input name="transport" type="radio" value="motorcycle" onchange="displayData('transport');">
-<tr><td>Motorcar: <td><input name="transport" type="radio" value="motorcar" onchange="displayData('transport');" checked>
+<tr><td>バイク:<td><input name="transport" type="radio" value="motorcycle" onchange="displayData('transport');">
+<tr><td>自動車: <td><input name="transport" type="radio" value="motorcar" onchange="displayData('transport');" checked>
 <tr><td>Goods: <td><input name="transport" type="radio" value="goods" onchange="displayData('transport');">
 <tr><td>HGV: <td><input name="transport" type="radio" value="hgv" onchange="displayData('transport');">
 <tr><td>PSV: <td><input name="transport" type="radio" value="psv" onchange="displayData('transport');">
@@ -264,13 +264,13 @@ Each segment allowed for the chosen type of transport is drawn.
 Each barrier blocking the chosen type of transport is drawn.
 <form name="barriers" id="barriers" action="#" method="get" onsubmit="return false;">
 <table>
-<tr><td>Foot: <td><input name="barrier" type="radio" value="foot" onchange="displayData('barrier');">
-<tr><td>Horse: <td><input name="barrier" type="radio" value="horse" onchange="displayData('barrier');">
-<tr><td>Wheelchair:<td><input name="barrier" type="radio" value="wheelchair" onchange="displayData('barrier');">
-<tr><td>Bicycle: <td><input name="barrier" type="radio" value="bicycle" onchange="displayData('barrier');">
+<tr><td>徒歩: <td><input name="barrier" type="radio" value="foot" onchange="displayData('barrier');">
+<tr><td>馬: <td><input name="barrier" type="radio" value="horse" onchange="displayData('barrier');">
+<tr><td>車椅子:<td><input name="barrier" type="radio" value="wheelchair" onchange="displayData('barrier');">
+<tr><td>自転車: <td><input name="barrier" type="radio" value="bicycle" onchange="displayData('barrier');">
 <tr><td>Moped: <td><input name="barrier" type="radio" value="moped" onchange="displayData('barrier');">
-<tr><td>Motorcycle:<td><input name="barrier" type="radio" value="motorcycle" onchange="displayData('barrier');">
-<tr><td>Motorcar: <td><input name="barrier" type="radio" value="motorcar" onchange="displayData('barrier');" checked>
+<tr><td>バイク:<td><input name="barrier" type="radio" value="motorcycle" onchange="displayData('barrier');">
+<tr><td>自動車: <td><input name="barrier" type="radio" value="motorcar" onchange="displayData('barrier');" checked>
 <tr><td>Goods: <td><input name="barrier" type="radio" value="goods" onchange="displayData('barrier');">
 <tr><td>HGV: <td><input name="barrier" type="radio" value="hgv" onchange="displayData('barrier');">
 <tr><td>PSV: <td><input name="barrier" type="radio" value="psv" onchange="displayData('barrier');">
@@ -291,7 +291,7 @@ Each turn restrictions is shown with a line indicating the disallowed turn.
 <div class="hideshow_box">
 <span id="hideshow_speed_show" onclick="hideshow_show('speed');" class="hideshow_show">+</span>
 <span id="hideshow_speed_hide" onclick="hideshow_hide('speed');" class="hideshow_hide">-</span>
-<input type="button" id="speed" onclick="displayData('speed');" value="Display Speed Limits">
+<input type="button" id="speed" onclick="displayData('speed');" value="速度制限表示">
 <div id="hideshow_speed_div" style="display: none;">
 Each node that joins segments with different speed limits is shown
 along with the speed limit on relevant segments.
@@ -307,7 +307,7 @@ along with the speed limit on relevant segments.
 <div class="hideshow_box">
 <span id="hideshow_weight_show" onclick="hideshow_show('weight');" class="hideshow_show">+</span>
 <span id="hideshow_weight_hide" onclick="hideshow_hide('weight');" class="hideshow_hide">-</span>
-<input type="button" id="weight" onclick="displayData('weight');" value="Display Weight Limits">
+<input type="button" id="weight" onclick="displayData('weight');" value="重量制限表示">
 <div id="hideshow_weight_div" style="display: none;">
 Each node that joins segments with different weight limits is shown
 along with the weight limit on relevant segments.
@@ -323,7 +323,7 @@ along with the weight limit on relevant segments.
 <div class="hideshow_box">
 <span id="hideshow_height_show" onclick="hideshow_show('height');" class="hideshow_show">+</span>
 <span id="hideshow_height_hide" onclick="hideshow_hide('height');" class="hideshow_hide">-</span>
-<input type="button" id="height" onclick="displayData('height');" value="Display Height Limits">
+<input type="button" id="height" onclick="displayData('height');" value="高さ制限表示">
 <div id="hideshow_height_div" style="display: none;">
 Each node that joins segments with different height limits is shown
 along with the height limit on relevant segments.
@@ -339,7 +339,7 @@ along with the height limit on relevant segments.
 <div class="hideshow_box">
 <span id="hideshow_width_show" onclick="hideshow_show('width');" class="hideshow_show">+</span>
 <span id="hideshow_width_hide" onclick="hideshow_hide('width');" class="hideshow_hide">-</span>
-<input type="button" id="width" onclick="displayData('width');" value="Display Width Limits">
+<input type="button" id="width" onclick="displayData('width');" value="幅制限表示s">
 <div id="hideshow_width_div" style="display: none;">
 Each node that joins segments with different width limits is shown
 along with the width limit on relevant segments.
@@ -355,7 +355,7 @@ along with the width limit on relevant segments.
 <div class="hideshow_box">
 <span id="hideshow_length_show" onclick="hideshow_show('length');" class="hideshow_show">+</span>
 <span id="hideshow_length_hide" onclick="hideshow_hide('length');" class="hideshow_hide">-</span>
-<input type="button" id="length" onclick="displayData('length');" value="Display Length Limits">
+<input type="button" id="length" onclick="displayData('length');" value="長さ制限表示">
 <div id="hideshow_length_div" style="display: none;">
 Each node that joins segments with different length limits is shown
 along with the length limit on relevant segments.
@@ -378,8 +378,8 @@ Each segment of the highways with a particular property is drawn.
 <table>
 <tr><td>Paved: <td><input name="property" type="radio" value="paved" onchange="displayData('property');" checked>
 <tr><td>Multiple Lanes: <td><input name="property" type="radio" value="multilane" onchange="displayData('property');">
-<tr><td>Bridge: <td><input name="property" type="radio" value="bridge" onchange="displayData('property');">
-<tr><td>Tunnel: <td><input name="property" type="radio" value="tunnel" onchange="displayData('property');">
+<tr><td>橋: <td><input name="property" type="radio" value="bridge" onchange="displayData('property');">
+<tr><td>トンネル: <td><input name="property" type="radio" value="tunnel" onchange="displayData('property');">
 <tr><td>Walking Route: <td><input name="property" type="radio" value="footroute" onchange="displayData('property');">
 <tr><td>Bicycle Route: <td><input name="property" type="radio" value="bicycleroute" onchange="displayData('property');">
 </table>
@@ -390,33 +390,32 @@ Each segment of the highways with a particular property is drawn.
 <div class="hideshow_box">
 <span id="hideshow_errorlogs_show" onclick="hideshow_show('errorlogs');" class="hideshow_show">+</span>
 <span id="hideshow_errorlogs_hide" onclick="hideshow_hide('errorlogs');" class="hideshow_hide">-</span>
-<input type="button" id="errorlogs" onclick="displayData('errorlogs');" value="Display Error Logs">
+<input type="button" id="errorlogs" onclick="displayData('errorlogs');" value="エラーログ表示">
 <div id="hideshow_errorlogs_div" style="display: none;">
 Potential problems found by Routino when processing the input data.
 </div>
 </div>
 
 <div class="hideshow_box">
-<input type="button" id="clear" onclick="displayData('');" value="Clear data">
+<input type="button" id="clear" onclick="displayData('');" value="データ消去">
 </div>
 
 <div class="hideshow_box">
-<span class="hideshow_title">Links</span>
+<span class="hideshow_title">リンク</span>
 <a id="permalink_url" href="visualiser.html">Link to this map view</a>
 <br>
-<a id="edit_url" target="edit" style="display: none;">Edit this OSM data</a>
+<a id="edit_url" target="edit" style="display: none;">OSMデータ編集</a>
 </div>
 
 <div class="hideshow_box">
 <span id="hideshow_help_options_show" onclick="hideshow_show('help_options');" class="hideshow_hide">+</span>
 <span id="hideshow_help_options_hide" onclick="hideshow_hide('help_options');" class="hideshow_show">-</span>
-<span class="hideshow_title">Help</span>
+<span class="hideshow_title">ヘルプ</span>
 <div id="hideshow_help_options_div">
 <div class="scrollable">
-<b>Quick Start</b>
+<b>クイックスタート</b>
 <br>
-Zoom to an area and select one of the buttons to display that type of
-data.
+エリアを拡大して一つボタンを選択すると、データの型を表示します。
 <br>
 More data options can be found by expanding the details below each
 button.
@@ -434,7 +433,7 @@ again.
 <div class="tab_content" id="tab_router_div" style="display: none;">
 <div class="hideshow_box">
 <span class="hideshow_title">Routino Router</span>
-To perform routing on the map use the link below.
+マップ上で経路探索を行うには下のリンクを使って下さい。
 <br>
 <a id="router_url" href="router.html" target="router">Link to this map view</a>
 </div>
@@ -464,7 +463,7 @@ Router: <a href="http://www.routino.org/" target="routino">Routino</a>
 |
 Geo Data: <span id="attribution_data"></span>
 |
-Tiles: <span id="attribution_tile"></span>
+タイル: <span id="attribution_tile"></span>
 </div>
 </div>
 

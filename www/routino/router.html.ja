@@ -54,9 +54,9 @@ along with this program. If not, see http://www.gnu.org/licenses/.
 <div class="left_panel">
 
 <div class="tab_box">
-<span id="tab_options" onclick="tab_select('options');" class="tab_selected" title="Set routing options">Options</span>
-<span id="tab_results" onclick="tab_select('results');" class="tab_unselected" title="See routing results">Results</span>
-<span id="tab_data" onclick="tab_select('data');" class="tab_unselected" title="View database information">Data</span>
+<span id="tab_options" onclick="tab_select('options');" class="tab_selected" title="経路オプション設定">オプション</span>
+<span id="tab_results" onclick="tab_select('results');" class="tab_unselected" title="経路を見る">Results</span>
+<span id="tab_data" onclick="tab_select('data');" class="tab_unselected" title="データベース情報一覧">データ</span>
 </div>
 
 <div class="tab_content" id="tab_options_div">
@@ -64,19 +64,19 @@ along with this program. If not, see http://www.gnu.org/licenses/.
 <form name="form" id="form" action="#" method="get" onsubmit="return false;">
 <div class="hideshow_box">
 <span class="hideshow_title">Routino OpenStreetMap Router</span>
-This web page allows routing within the data collected by OpenStreetMap.
-Select start and end points (click on the marker icons below), select routing preferences then find a route.
+このページはOpenStreetMapの集積データで経路探索が出来ます。
+出発点と到着点を選んで下さい（下のマーカをクリック）。経路の設定を選択し、経路を検索して下さい。
 <div class="center">
-<a target="other" href="http://www.routino.org/">Routino Website</a>
+<a target="other" href="http://www.routino.org/">ルーティーノ　ウェブサイト</a>
 |
-<a target="other" href="documentation/">Documentation</a>
+<a target="other" href="documentation/">取扱説明書</a>
 </div>
 </div>
 
 <div class="hideshow_box">
 <span id="hideshow_language_show" onclick="hideshow_show('language');" class="hideshow_show">+</span>
 <span id="hideshow_language_hide" onclick="hideshow_hide('language');" class="hideshow_hide">-</span>
-<span class="hideshow_title">Language</span>
+<span class="hideshow_title">言語</span>
 
 <div id="hideshow_language_div" style="display: none;">
 <table>
@@ -133,8 +133,8 @@ Select start and end points (click on the marker icons below), select routing pr
 <input name="searchXXX" type="text" size="18" title="Waypoint XXX Location"> <!-- uses Javascript event for triggering -->
 </span>
 <div class="waypoint-buttons" style="display: inline-block;">
-<img alt="?" src="icons/waypoint-search.png" title="Search for location" onmousedown="markerSearch(XXX);" >
-<img alt="G" src="icons/waypoint-locate.png" title="Get current location" onmousedown="markerLocate(XXX);" >
+<img alt="?" src="icons/waypoint-search.png" title="場所検索" onmousedown="markerSearch(XXX);" >
+<img alt="G" src="icons/waypoint-locate.png" title="現在地取得" onmousedown="markerLocate(XXX);" >
 <img alt="O" src="icons/waypoint-recentre.png" title="Centre map on this waypoint" onmousedown="markerRecentre(XXX);">
 <img alt="^" src="icons/waypoint-up.png" title="Move this waypoint up" onmousedown="markerMoveUp(XXX);" >
 <img alt="+" src="icons/waypoint-add.png" title="Add waypoint after this one" onmousedown="markerAddAfter(XXX);">
@@ -165,16 +165,16 @@ Select start and end points (click on the marker icons below), select routing pr
 <div class="hideshow_box">
 <span id="hideshow_transport_show" onclick="hideshow_show('transport');" class="hideshow_hide">+</span>
 <span id="hideshow_transport_hide" onclick="hideshow_hide('transport');" class="hideshow_show">-</span>
-<span class="hideshow_title">Transport Type</span>
+<span class="hideshow_title">移動方法</span>
 <div id="hideshow_transport_div">
 <table>
-<tr><td>Foot: <td><input name="transport" type="radio" value="foot" onchange="formSetTransport('foot' );">
-<tr><td>Horse: <td><input name="transport" type="radio" value="horse" onchange="formSetTransport('horse' );">
-<tr><td>Wheelchair:<td><input name="transport" type="radio" value="wheelchair" onchange="formSetTransport('wheelchair');">
-<tr><td>Bicycle: <td><input name="transport" type="radio" value="bicycle" onchange="formSetTransport('bicycle' );">
+<tr><td>徒歩: <td><input name="transport" type="radio" value="foot" onchange="formSetTransport('foot' );">
+<tr><td>馬: <td><input name="transport" type="radio" value="horse" onchange="formSetTransport('horse' );">
+<tr><td>車椅子:<td><input name="transport" type="radio" value="wheelchair" onchange="formSetTransport('wheelchair');">
+<tr><td>自転車: <td><input name="transport" type="radio" value="bicycle" onchange="formSetTransport('bicycle' );">
 <tr><td>Moped: <td><input name="transport" type="radio" value="moped" onchange="formSetTransport('moped' );">
-<tr><td>Motorcycle:<td><input name="transport" type="radio" value="motorcycle" onchange="formSetTransport('motorcycle');">
-<tr><td>Motorcar: <td><input name="transport" type="radio" value="motorcar" onchange="formSetTransport('motorcar' );">
+<tr><td>バイク:<td><input name="transport" type="radio" value="motorcycle" onchange="formSetTransport('motorcycle');">
+<tr><td>自動車: <td><input name="transport" type="radio" value="motorcar" onchange="formSetTransport('motorcar' );">
 <tr><td>Goods: <td><input name="transport" type="radio" value="goods" onchange="formSetTransport('goods' );">
 <tr><td>HGV: <td><input name="transport" type="radio" value="hgv" onchange="formSetTransport('hgv' );">
 <tr><td>PSV: <td><input name="transport" type="radio" value="psv" onchange="formSetTransport('psv' );">
@@ -188,7 +188,7 @@ Select start and end points (click on the marker icons below), select routing pr
 <span class="hideshow_title">Highway Preferences</span>
 <div id="hideshow_highway_div" style="display: none;">
 <table>
-<tr><td>Motorway: <td><input name="highway-motorway" type="text" size="3" onchange="formSetHighway('motorway' ,'=');"><td>%<td><img alt="<" src="icons/waypoint-left.png" title="-" onmousedown="formSetHighway('motorway' ,'-');">&ndash;/+<img alt=">" src="icons/waypoint-right.png" title="+" onmousedown="formSetHighway('motorway' ,'+');">
+<tr><td>自動車専用道: <td><input name="highway-motorway" type="text" size="3" onchange="formSetHighway('motorway' ,'=');"><td>%<td><img alt="<" src="icons/waypoint-left.png" title="-" onmousedown="formSetHighway('motorway' ,'-');">&ndash;/+<img alt=">" src="icons/waypoint-right.png" title="+" onmousedown="formSetHighway('motorway' ,'+');">
 <tr><td>Trunk: <td><input name="highway-trunk" type="text" size="3" onchange="formSetHighway('trunk' ,'=');"><td>%<td><img alt="<" src="icons/waypoint-left.png" title="-" onmousedown="formSetHighway('trunk' ,'-');">&ndash;/+<img alt=">" src="icons/waypoint-right.png" title="+" onmousedown="formSetHighway('trunk' ,'+');">
 <tr><td>Primary: <td><input name="highway-primary" type="text" size="3" onchange="formSetHighway('primary' ,'=');"><td>%<td><img alt="<" src="icons/waypoint-left.png" title="-" onmousedown="formSetHighway('primary' ,'-');">&ndash;/+<img alt=">" src="icons/waypoint-right.png" title="+" onmousedown="formSetHighway('primary' ,'+');">
 <tr><td>Secondary: <td><input name="highway-secondary" type="text" size="3" onchange="formSetHighway('secondary' ,'=');"><td>%<td><img alt="<" src="icons/waypoint-left.png" title="-" onmousedown="formSetHighway('secondary' ,'-');">&ndash;/+<img alt=">" src="icons/waypoint-right.png" title="+" onmousedown="formSetHighway('secondary' ,'+');">
@@ -197,10 +197,10 @@ Select start and end points (click on the marker icons below), select routing pr
 <tr><td>Residential: <td><input name="highway-residential" type="text" size="3" onchange="formSetHighway('residential' ,'=');"><td>%<td><img alt="<" src="icons/waypoint-left.png" title="-" onmousedown="formSetHighway('residential' ,'-');">&ndash;/+<img alt=">" src="icons/waypoint-right.png" title="+" onmousedown="formSetHighway('residential' ,'+');">
 <tr><td>Service: <td><input name="highway-service" type="text" size="3" onchange="formSetHighway('service' ,'=');"><td>%<td><img alt="<" src="icons/waypoint-left.png" title="-" onmousedown="formSetHighway('service' ,'-');">&ndash;/+<img alt=">" src="icons/waypoint-right.png" title="+" onmousedown="formSetHighway('service' ,'+');">
 <tr><td>Track: <td><input name="highway-track" type="text" size="3" onchange="formSetHighway('track' ,'=');"><td>%<td><img alt="<" src="icons/waypoint-left.png" title="-" onmousedown="formSetHighway('track' ,'-');">&ndash;/+<img alt=">" src="icons/waypoint-right.png" title="+" onmousedown="formSetHighway('track' ,'+');">
-<tr><td>Cycleway: <td><input name="highway-cycleway" type="text" size="3" onchange="formSetHighway('cycleway' ,'=');"><td>%<td><img alt="<" src="icons/waypoint-left.png" title="-" onmousedown="formSetHighway('cycleway' ,'-');">&ndash;/+<img alt=">" src="icons/waypoint-right.png" title="+" onmousedown="formSetHighway('cycleway' ,'+');">
+<tr><td>自転車専用道: <td><input name="highway-cycleway" type="text" size="3" onchange="formSetHighway('cycleway' ,'=');"><td>%<td><img alt="<" src="icons/waypoint-left.png" title="-" onmousedown="formSetHighway('cycleway' ,'-');">&ndash;/+<img alt=">" src="icons/waypoint-right.png" title="+" onmousedown="formSetHighway('cycleway' ,'+');">
 <tr><td>Path: <td><input name="highway-path" type="text" size="3" onchange="formSetHighway('path' ,'=');"><td>%<td><img alt="<" src="icons/waypoint-left.png" title="-" onmousedown="formSetHighway('path' ,'-');">&ndash;/+<img alt=">" src="icons/waypoint-right.png" title="+" onmousedown="formSetHighway('path' ,'+');">
-<tr><td>Steps: <td><input name="highway-steps" type="text" size="3" onchange="formSetHighway('steps' ,'=');"><td>%<td><img alt="<" src="icons/waypoint-left.png" title="-" onmousedown="formSetHighway('steps' ,'-');">&ndash;/+<img alt=">" src="icons/waypoint-right.png" title="+" onmousedown="formSetHighway('steps' ,'+');">
-<tr><td>Ferry: <td><input name="highway-ferry" type="text" size="3" onchange="formSetHighway('ferry' ,'=');"><td>%<td><img alt="<" src="icons/waypoint-left.png" title="-" onmousedown="formSetHighway('ferry' ,'-');">&ndash;/+<img alt=">" src="icons/waypoint-right.png" title="+" onmousedown="formSetHighway('ferry' ,'+');">
+<tr><td>階段: <td><input name="highway-steps" type="text" size="3" onchange="formSetHighway('steps' ,'=');"><td>%<td><img alt="<" src="icons/waypoint-left.png" title="-" onmousedown="formSetHighway('steps' ,'-');">&ndash;/+<img alt=">" src="icons/waypoint-right.png" title="+" onmousedown="formSetHighway('steps' ,'+');">
+<tr><td>フェリー: <td><input name="highway-ferry" type="text" size="3" onchange="formSetHighway('ferry' ,'=');"><td>%<td><img alt="<" src="icons/waypoint-left.png" title="-" onmousedown="formSetHighway('ferry' ,'-');">&ndash;/+<img alt=">" src="icons/waypoint-right.png" title="+" onmousedown="formSetHighway('ferry' ,'+');">
 </table>
 </div>
 </div>
@@ -208,10 +208,10 @@ Select start and end points (click on the marker icons below), select routing pr
 <div class="hideshow_box">
 <span id="hideshow_speed_show" onclick="hideshow_show('speed');" class="hideshow_show">+</span>
 <span id="hideshow_speed_hide" onclick="hideshow_hide('speed');" class="hideshow_hide">-</span>
-<span class="hideshow_title">Speed Limits</span>
+<span class="hideshow_title">速度制限</span>
 <div id="hideshow_speed_div" style="display: none;">
 <table>
-<tr><td>Motorway: <td><input name="speed-motorway" type="text" size="3" onchange="formSetSpeed('motorway' ,'=');"><td>km/hr<td><img alt="<" src="icons/waypoint-left.png" title="-" onmousedown="formSetSpeed('motorway' ,'-');">&ndash;/+<img alt=">" src="icons/waypoint-right.png" title="+" onmousedown="formSetSpeed('motorway' ,'+');">
+<tr><td>自動車専用道: <td><input name="speed-motorway" type="text" size="3" onchange="formSetSpeed('motorway' ,'=');"><td>km/hr<td><img alt="<" src="icons/waypoint-left.png" title="-" onmousedown="formSetSpeed('motorway' ,'-');">&ndash;/+<img alt=">" src="icons/waypoint-right.png" title="+" onmousedown="formSetSpeed('motorway' ,'+');">
 <tr><td>Trunk: <td><input name="speed-trunk" type="text" size="3" onchange="formSetSpeed('trunk' ,'=');"><td>km/hr<td><img alt="<" src="icons/waypoint-left.png" title="-" onmousedown="formSetSpeed('trunk' ,'-');">&ndash;/+<img alt=">" src="icons/waypoint-right.png" title="+" onmousedown="formSetSpeed('trunk' ,'+');">
 <tr><td>Primary: <td><input name="speed-primary" type="text" size="3" onchange="formSetSpeed('primary' ,'=');"><td>km/hr<td><img alt="<" src="icons/waypoint-left.png" title="-" onmousedown="formSetSpeed('primary' ,'-');">&ndash;/+<img alt=">" src="icons/waypoint-right.png" title="+" onmousedown="formSetSpeed('primary' ,'+');">
 <tr><td>Secondary: <td><input name="speed-secondary" type="text" size="3" onchange="formSetSpeed('secondary' ,'=');"><td>km/hr<td><img alt="<" src="icons/waypoint-left.png" title="-" onmousedown="formSetSpeed('secondary' ,'-');">&ndash;/+<img alt=">" src="icons/waypoint-right.png" title="+" onmousedown="formSetSpeed('secondary' ,'+');">
@@ -220,10 +220,10 @@ Select start and end points (click on the marker icons below), select routing pr
 <tr><td>Residential: <td><input name="speed-residential" type="text" size="3" onchange="formSetSpeed('residential' ,'=');"><td>km/hr<td><img alt="<" src="icons/waypoint-left.png" title="-" onmousedown="formSetSpeed('residential' ,'-');">&ndash;/+<img alt=">" src="icons/waypoint-right.png" title="+" onmousedown="formSetSpeed('residential' ,'+');">
 <tr><td>Service: <td><input name="speed-service" type="text" size="3" onchange="formSetSpeed('service' ,'=');"><td>km/hr<td><img alt="<" src="icons/waypoint-left.png" title="-" onmousedown="formSetSpeed('service' ,'-');">&ndash;/+<img alt=">" src="icons/waypoint-right.png" title="+" onmousedown="formSetSpeed('service' ,'+');">
 <tr><td>Track: <td><input name="speed-track" type="text" size="3" onchange="formSetSpeed('track' ,'=');"><td>km/hr<td><img alt="<" src="icons/waypoint-left.png" title="-" onmousedown="formSetSpeed('track' ,'-');">&ndash;/+<img alt=">" src="icons/waypoint-right.png" title="+" onmousedown="formSetSpeed('track' ,'+');">
-<tr><td>Cycleway: <td><input name="speed-cycleway" type="text" size="3" onchange="formSetSpeed('cycleway' ,'=');"><td>km/hr<td><img alt="<" src="icons/waypoint-left.png" title="-" onmousedown="formSetSpeed('cycleway' ,'-');">&ndash;/+<img alt=">" src="icons/waypoint-right.png" title="+" onmousedown="formSetSpeed('cycleway' ,'+');">
+<tr><td>自転車専用道: <td><input name="speed-cycleway" type="text" size="3" onchange="formSetSpeed('cycleway' ,'=');"><td>km/hr<td><img alt="<" src="icons/waypoint-left.png" title="-" onmousedown="formSetSpeed('cycleway' ,'-');">&ndash;/+<img alt=">" src="icons/waypoint-right.png" title="+" onmousedown="formSetSpeed('cycleway' ,'+');">
 <tr><td>Path: <td><input name="speed-path" type="text" size="3" onchange="formSetSpeed('path' ,'=');"><td>km/hr<td><img alt="<" src="icons/waypoint-left.png" title="-" onmousedown="formSetSpeed('path' ,'-');">&ndash;/+<img alt=">" src="icons/waypoint-right.png" title="+" onmousedown="formSetSpeed('path' ,'+');">
-<tr><td>Steps: <td><input name="speed-steps" type="text" size="3" onchange="formSetSpeed('steps' ,'=');"><td>km/hr<td><img alt="<" src="icons/waypoint-left.png" title="-" onmousedown="formSetSpeed('steps' ,'-');">&ndash;/+<img alt=">" src="icons/waypoint-right.png" title="+" onmousedown="formSetSpeed('steps' ,'+');">
-<tr><td>Ferry: <td><input name="speed-ferry" type="text" size="3" onchange="formSetSpeed('ferry' ,'=');"><td>km/hr<td><img alt="<" src="icons/waypoint-left.png" title="-" onmousedown="formSetSpeed('ferry' ,'-');">&ndash;/+<img alt=">" src="icons/waypoint-right.png" title="+" onmousedown="formSetSpeed('ferry' ,'+');">
+<tr><td>階段: <td><input name="speed-steps" type="text" size="3" onchange="formSetSpeed('steps' ,'=');"><td>km/hr<td><img alt="<" src="icons/waypoint-left.png" title="-" onmousedown="formSetSpeed('steps' ,'-');">&ndash;/+<img alt=">" src="icons/waypoint-right.png" title="+" onmousedown="formSetSpeed('steps' ,'+');">
+<tr><td>フェリー: <td><input name="speed-ferry" type="text" size="3" onchange="formSetSpeed('ferry' ,'=');"><td>km/hr<td><img alt="<" src="icons/waypoint-left.png" title="-" onmousedown="formSetSpeed('ferry' ,'-');">&ndash;/+<img alt=">" src="icons/waypoint-right.png" title="+" onmousedown="formSetSpeed('ferry' ,'+');">
 </table>
 </div>
 </div>
@@ -236,8 +236,8 @@ Select start and end points (click on the marker icons below), select routing pr
 <table>
 <tr><td>Paved: <td><input name="property-paved" type="text" size="3" onchange="formSetProperty('paved' ,'=');"><td>%<td><img alt="<" src="icons/waypoint-left.png" title="-" onmousedown="formSetProperty('paved' ,'-');">&ndash;/+<img alt=">" src="icons/waypoint-right.png" title="+" onmousedown="formSetProperty('paved' ,'+');">
 <tr><td>Multiple Lanes: <td><input name="property-multilane" type="text" size="3" onchange="formSetProperty('multilane' ,'=');"><td>%<td><img alt="<" src="icons/waypoint-left.png" title="-" onmousedown="formSetProperty('multilane' ,'-');">&ndash;/+<img alt=">" src="icons/waypoint-right.png" title="+" onmousedown="formSetProperty('multilane' ,'+');">
-<tr><td>Bridge: <td><input name="property-bridge" type="text" size="3" onchange="formSetProperty('bridge' ,'=');"><td>%<td><img alt="<" src="icons/waypoint-left.png" title="-" onmousedown="formSetProperty('bridge' ,'-');">&ndash;/+<img alt=">" src="icons/waypoint-right.png" title="+" onmousedown="formSetProperty('bridge' ,'+');">
-<tr><td>Tunnel: <td><input name="property-tunnel" type="text" size="3" onchange="formSetProperty('tunnel' ,'=');"><td>%<td><img alt="<" src="icons/waypoint-left.png" title="-" onmousedown="formSetProperty('tunnel' ,'-');">&ndash;/+<img alt=">" src="icons/waypoint-right.png" title="+" onmousedown="formSetProperty('tunnel' ,'+');">
+<tr><td>橋: <td><input name="property-bridge" type="text" size="3" onchange="formSetProperty('bridge' ,'=');"><td>%<td><img alt="<" src="icons/waypoint-left.png" title="-" onmousedown="formSetProperty('bridge' ,'-');">&ndash;/+<img alt=">" src="icons/waypoint-right.png" title="+" onmousedown="formSetProperty('bridge' ,'+');">
+<tr><td>トンネル: <td><input name="property-tunnel" type="text" size="3" onchange="formSetProperty('tunnel' ,'=');"><td>%<td><img alt="<" src="icons/waypoint-left.png" title="-" onmousedown="formSetProperty('tunnel' ,'-');">&ndash;/+<img alt=">" src="icons/waypoint-right.png" title="+" onmousedown="formSetProperty('tunnel' ,'+');">
 <tr><td>Walking Route:<td><input name="property-footroute" type="text" size="3" onchange="formSetProperty('footroute' ,'=');"><td>%<td><img alt="<" src="icons/waypoint-left.png" title="-" onmousedown="formSetProperty('footroute' ,'-');">&ndash;/+<img alt=">" src="icons/waypoint-right.png" title="+" onmousedown="formSetProperty('footroute' ,'+');">
 <tr><td>Bicycle Route:<td><input name="property-bicycleroute" type="text" size="3" onchange="formSetProperty('bicycleroute','=');"><td>%<td><img alt="<" src="icons/waypoint-left.png" title="-" onmousedown="formSetProperty('bicycleroute','-');">&ndash;/+<img alt=">" src="icons/waypoint-right.png" title="+" onmousedown="formSetProperty('bicycleroute','+');">
 </table>
@@ -254,34 +254,34 @@ Select start and end points (click on the marker icons below), select routing pr
 <tr><td>Obey turn restrictions: <td><input name="restrict-turns" type="checkbox" onchange="formSetRestriction('turns' );">
 </table>
 <table>
-<tr><td>Weight:<td><input name="restrict-weight" type="text" size="3" onchange="formSetRestriction('weight','=');"><td>tonnes<td><img alt="<" src="icons/waypoint-left.png" title="-" onmousedown="formSetRestriction('weight','-');">&ndash;/+<img alt=">" src="icons/waypoint-right.png" title="+" onmousedown="formSetRestriction('weight','+');">
-<tr><td>Height:<td><input name="restrict-height" type="text" size="3" onchange="formSetRestriction('height','=');"><td>metres<td><img alt="<" src="icons/waypoint-left.png" title="-" onmousedown="formSetRestriction('height','-');">&ndash;/+<img alt=">" src="icons/waypoint-right.png" title="+" onmousedown="formSetRestriction('height','+');">
-<tr><td>Width: <td><input name="restrict-width" type="text" size="3" onchange="formSetRestriction('width' ,'=');"><td>metres<td><img alt="<" src="icons/waypoint-left.png" title="-" onmousedown="formSetRestriction('width' ,'-');">&ndash;/+<img alt=">" src="icons/waypoint-right.png" title="+" onmousedown="formSetRestriction('width' ,'+');">
-<tr><td>Length:<td><input name="restrict-length" type="text" size="3" onchange="formSetRestriction('length','=');"><td>metres<td><img alt="<" src="icons/waypoint-left.png" title="-" onmousedown="formSetRestriction('length','-');">&ndash;/+<img alt=">" src="icons/waypoint-right.png" title="+" onmousedown="formSetRestriction('length','+');">
+<tr><td>重量:<td><input name="restrict-weight" type="text" size="3" onchange="formSetRestriction('weight','=');"><td>tonnes<td><img alt="<" src="icons/waypoint-left.png" title="-" onmousedown="formSetRestriction('weight','-');">&ndash;/+<img alt=">" src="icons/waypoint-right.png" title="+" onmousedown="formSetRestriction('weight','+');">
+<tr><td>高さ:<td><input name="restrict-height" type="text" size="3" onchange="formSetRestriction('height','=');"><td>metres<td><img alt="<" src="icons/waypoint-left.png" title="-" onmousedown="formSetRestriction('height','-');">&ndash;/+<img alt=">" src="icons/waypoint-right.png" title="+" onmousedown="formSetRestriction('height','+');">
+<tr><td>幅: <td><input name="restrict-width" type="text" size="3" onchange="formSetRestriction('width' ,'=');"><td>metres<td><img alt="<" src="icons/waypoint-left.png" title="-" onmousedown="formSetRestriction('width' ,'-');">&ndash;/+<img alt=">" src="icons/waypoint-right.png" title="+" onmousedown="formSetRestriction('width' ,'+');">
+<tr><td>長さ:<td><input name="restrict-length" type="text" size="3" onchange="formSetRestriction('length','=');"><td>metres<td><img alt="<" src="icons/waypoint-left.png" title="-" onmousedown="formSetRestriction('length','-');">&ndash;/+<img alt=">" src="icons/waypoint-right.png" title="+" onmousedown="formSetRestriction('length','+');">
 </table>
 </div>
 </div>
 
 <div class="hideshow_box">
-<span class="hideshow_title">Find</span>
+<span class="hideshow_title">検索</span>
 <input type="button" title="Find shortest route" id="shortest" value="Shortest Route" onclick="findRoute('shortest');" disabled="disabled">
 <input type="button" title="Find quickest route" id="quickest" value="Quickest Route" onclick="findRoute('quickest');" disabled="disabled">
 </div>
 
 <div class="hideshow_box">
-<span class="hideshow_title">Links</span>
+<span class="hideshow_title">リンク</span>
 <a id="permalink_url" href="router.html">Link to this map view</a>
 <br>
-<a id="edit_url" target="edit" style="display: none;">Edit this OSM data</a>
+<a id="edit_url" target="edit" style="display: none;">OSMデータ編集</a>
 </div>
 
 <div class="hideshow_box">
 <span id="hideshow_help_options_show" onclick="hideshow_show('help_options');" class="hideshow_hide">+</span>
 <span id="hideshow_help_options_hide" onclick="hideshow_hide('help_options');" class="hideshow_show">-</span>
-<span class="hideshow_title">Help</span>
+<span class="hideshow_title">ヘルプ</span>
 <div id="hideshow_help_options_div">
 <div class="scrollable">
-<b>Quick Start</b>
+<b>クイックスタート</b>
 <br>
 Click on marker icons (above) to place them on the map (right). Then
 drag them to the correct position. Zooming the map before placing the
@@ -300,7 +300,7 @@ When a route is calculated it will visit (as close as possible
 for the selected transport type) each of the waypoints that have
 markers on the map in the order given.
 <p>
-<b>Transport Type</b>
+<b>移動方法</b>
 <br>
 Selecting a transport type will restrict the chosen route to
 those on which it is allowed and set default values for the
@@ -314,12 +314,12 @@ For example if a "Primary" road is given a "110%" preference and a "Secondary"
 road is given a "100%" preference then it means that a route on a Primary road
 can be up to 10% longer than on a secondary road and still be selected.
 <p>
-<b>Speed Limits</b>
+<b>速度制限</b>
 <br>
 The speed limits chosen here for the different types of highway apply if the
 highway has no other speed limit marked or it is higher than the chosen one.
 <p>
-<b>Property Preferences</b>
+<b>プロパティ設定</b>
 <br>
 The property preference is selected as a percentage and routes are chosen that
 try to follow highways with the preferred property.
@@ -343,7 +343,7 @@ one-way restrictions (e.g. if walking).
 <div class="tab_content" id="tab_results_div" style="display: none;">
 
 <div class="hideshow_box">
-<span class="hideshow_title">Status</span>
+<span class="hideshow_title">状態</span>
 <div id="result_status">
 <div id="result_status_not_run">
 <b><i>Router not run</i></b>
@@ -352,14 +352,14 @@ one-way restrictions (e.g. if walking).
 <b>Router running...</b>
 </div>
 <div id="result_status_complete" style="display: none;">
-<b>Routing completed</b>
+<b>経路探索完了</b>
 <br>
-<a id="router_log_complete" target="router_log" href="#">View Details</a>
+<a id="router_log_complete" target="router_log" href="#">詳細表示</a>
 </div>
 <div id="result_status_error" style="display: none;">
 <b>Router error</b>
 <br>
-<a id="router_log_error" target="router_log" href="#">View Details</a>
+<a id="router_log_error" target="router_log" href="#">詳細表示</a>
 </div>
 <div id="result_status_failed" style="display: none;">
 <b>Router failed to run</b>
@@ -385,7 +385,7 @@ one-way restrictions (e.g. if walking).
 <tr><td>GPX track file: <td><a id="shortest_gpx_track" target="shortest_gpx_track" href="#">Open Popup</a>
 <tr><td>GPX route file: <td><a id="shortest_gpx_route" target="shortest_gpx_route" href="#">Open Popup</a>
 <tr><td>Full text file: <td><a id="shortest_text_all" target="shortest_text_all" href="#">Open Popup</a>
-<tr><td>Text file: <td><a id="shortest_text" target="shortest_text" href="#">Open Popup</a>
+<tr><td>テキストファイル: <td><a id="shortest_text" target="shortest_text" href="#">Open Popup</a>
 </table>
 <hr>
 </div>
@@ -412,7 +412,7 @@ one-way restrictions (e.g. if walking).
 <tr><td>GPX track file: <td><a id="quickest_gpx_track" target="quickest_gpx_track" href="#">Open Popup</a>
 <tr><td>GPX route file: <td><a id="quickest_gpx_route" target="quickest_gpx_route" href="#">Open Popup</a>
 <tr><td>Full text file: <td><a id="quickest_text_all" target="quickest_text_all" href="#">Open Popup</a>
-<tr><td>Text file: <td><a id="quickest_text" target="quickest_text" href="#">Open Popup</a>
+<tr><td>テキストファイル: <td><a id="quickest_text" target="quickest_text" href="#">Open Popup</a>
 </table>
 <hr>
 </div>
@@ -424,10 +424,10 @@ one-way restrictions (e.g. if walking).
 <div class="hideshow_box">
 <span id="hideshow_help_route_show" onclick="hideshow_show('help_route');" class="hideshow_hide">+</span>
 <span id="hideshow_help_route_hide" onclick="hideshow_hide('help_route');" class="hideshow_show">-</span>
-<span class="hideshow_title">Help</span>
+<span class="hideshow_title">ヘルプ</span>
 <div id="hideshow_help_route_div">
 <div class="scrollable">
-<b>Quick Start</b>
+<b>クイックスタート</b>
 <br>
 After calculating a route you can download the GPX file or plain
 text route description (summary or detailed version). Also you
@@ -440,7 +440,7 @@ that it is not possible to find a route between the selected points.
 Moving one or more markers or changing the routing options should
 allow a route to be found.
 <p>
-<b>Output Formats</b>
+<b>出力形式</b>
 <br>
 <dl>
 <dt>HTML instructions
@@ -456,8 +456,8 @@ with a waypoint for each important junction in the route.
 <dd>A list of all of the nodes visited as well as the distance
 between them and the cumulative distance for each step of the
 route.
-<dt>Text file
-<dd>The same information that is displayed in text for the route.
+<dt>テキストファイル
+<dd>経路の文字で表示されたのと同じ情報です。
 </dl>
 </div>
 </div>
@@ -497,7 +497,7 @@ Router: <a href="http://www.routino.org/" target="routino">Routino</a>
 |
 Geo Data: <span id="attribution_data"></span>
 |
-Tiles: <span id="attribution_tile"></span>
+タイル: <span id="attribution_tile"></span>
 </div>
 </div>
 

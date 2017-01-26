@@ -7,17 +7,17 @@
 #
 
 %%copyright_creator_string%%	Creator
-%%copyright_source_string%%	Source
+%%copyright_source_string%%	ソース
 %%copyright_source_text%%	Based on OpenStreetMap data from http://www.openstreetmap.org/
-%%copyright_license_string%%	License
+%%copyright_license_string%%	利用規約
 
 %%turn_-4%%	Very sharp left
 %%turn_-3%%	Sharp left
-%%turn_-2%%	Left
+%%turn_-2%%	左
 %%turn_-1%%	Slight left
 %%turn_0%%	Straight on
 %%turn_1%%	Slight right
-%%turn_2%%	Right
+%%turn_2%%	右
 %%turn_3%%	Sharp right
 %%turn_4%%	Very sharp right
 
@@ -31,16 +31,16 @@
 %%heading_3%%	南-東
 %%heading_4%%	南
 
-%%ordinal_1%%	First
-%%ordinal_2%%	Second
-%%ordinal_3%%	Third
-%%ordinal_4%%	Fourth
-%%ordinal_5%%	Fifth
-%%ordinal_6%%	Sixth
-%%ordinal_7%%	Seventh
-%%ordinal_8%%	Eighth
-%%ordinal_9%%	Ninth
-%%ordinal_10%%	Tenth
+%%ordinal_1%%	一番
+%%ordinal_2%%	二番
+%%ordinal_3%%	三番
+%%ordinal_4%%	四番
+%%ordinal_5%%	五番
+%%ordinal_6%%	六番
+%%ordinal_7%%	七番
+%%ordinal_8%%	八番
+%%ordinal_9%%	九番
+%%ordinal_10%%	十番
 
 %%highway_motorway%%	motorway
 %%highway_trunk%%	trunk road
@@ -54,7 +54,7 @@
 %%highway_cycleway%%	cycleway
 %%highway_path%%	path
 %%highway_steps%%	steps
-%%highway_ferry%%	ferry
+%%highway_ferry%%	フェリー
 
 %%route_shortest%%	Shortest
 %%route_quickest%%	Quickest
@@ -62,7 +62,7 @@
 %%output-html_waypoint_waypoint%%	Waypoint
 %%output-html_waypoint_junction%%	Junction
 %%output-html_waypoint_roundabout%%	Roundabout
-%%output-html_title%%	%s Route
+%%output-html_title%%	%s ルート
 %%output-html_start%%	Start at %s, head %s
 %%output-html_node%%	At %s, go %s heading %s
 %%output-html_rbnode%%	Leave %s, take the %s exit heading %s
@@ -88,31 +88,31 @@
 
 @@ROUTER-TITLE@@	Route Planner for OpenStreetMap Data
 
-@@OPTION-TAB@@	Options
-@@OPTION-TAB-HELP@@	Set routing options
+@@OPTION-TAB@@	オプション
+@@OPTION-TAB-HELP@@	経路オプション設定
 
 @@RESULTS-TAB@@	Results
-@@RESULTS-TAB-HELP@@	See routing results
+@@RESULTS-TAB-HELP@@	経路を見る
 
-@@DATA-TAB@@	Data
-@@DATA-TAB-HELP@@	View database information
+@@DATA-TAB@@	データ
+@@DATA-TAB-HELP@@	データベース情報一覧
 
 @@ROUTINO-ROUTER@@	Routino OpenStreetMap Router
-@@ROUTINO-WEBSITE@@	Routino Website
-@@DOCUMENTATION@@	Documentation
+@@ROUTINO-WEBSITE@@	ルーティーノ　ウェブサイト
+@@DOCUMENTATION@@	取扱説明書
 
-@@LANGUAGE-BOX@@	Language
+@@LANGUAGE-BOX@@	言語
 @@WAYPOINTS-BOX@@	Waypoints
-@@TRANSPORT-TYPE-BOX@@	Transport Type
+@@TRANSPORT-TYPE-BOX@@	移動方法
 @@HIGHWAY-PREFERENCES-BOX@@	Highway Preferences
-@@SPEED-LIMITS-BOX@@	Speed Limits
+@@SPEED-LIMITS-BOX@@	速度制限
 @@PROPERTY-PREFERENCES-BOX@@	Property Preferences
 @@OTHER-RESTRICTIONS-BOX@@	Other Restrictions
-@@FIND-BOX@@	Find
-@@LINKS-BOX@@	Links
-@@HELP-BOX@@	Help
+@@FIND-BOX@@	検索
+@@LINKS-BOX@@	リンク
+@@HELP-BOX@@	ヘルプ
 
-@@STATUS-BOX@@	Status
+@@STATUS-BOX@@	状態
 @@SHORTEST-ROUTE@@	Shortest Route
 @@QUICKEST-ROUTE@@	Quickest Route
 
@@ -123,8 +123,8 @@
 @@WAYPOINT-LONGITUDE@@	Waypoint XXX Longitude
 @@WAYPOINT-LATITUDE@@	Waypoint XXX Latitude
 @@WAYPOINT-LOCATION@@	Waypoint XXX Location
-@@WAYPOINT-SEARCH@@	Search for location
-@@WAYPOINT-GET@@	Get current location
+@@WAYPOINT-SEARCH@@	場所検索
+@@WAYPOINT-GET@@	現在地取得
 @@WAYPOINT-CENTRE1@@	Centre map on this waypoint
 @@WAYPOINT-UP@@	Move this waypoint up
 @@WAYPOINT-ADD@@	Add waypoint after this one
@@ -138,18 +138,18 @@
 @@WAYPOINT-LOOP@@	Add a new waypoint to make a loop
 @@WAYPOINT-LOOP-BUTTON@@	Close loop
 
-@@TRANSPORT-FOOT@@	Foot
-@@TRANSPORT-HORSE@@	Horse
-@@TRANSPORT-WHEELCHAIR@@	Wheelchair
-@@TRANSPORT-BICYCLE@@	Bicycle
+@@TRANSPORT-FOOT@@	徒歩
+@@TRANSPORT-HORSE@@	馬
+@@TRANSPORT-WHEELCHAIR@@	車椅子
+@@TRANSPORT-BICYCLE@@	自転車
 @@TRANSPORT-MOPED@@	Moped
-@@TRANSPORT-MOTORCYCLE@@	Motorcycle
-@@TRANSPORT-MOTORCAR@@	Motorcar
+@@TRANSPORT-MOTORCYCLE@@	バイク
+@@TRANSPORT-MOTORCAR@@	自動車
 @@TRANSPORT-GOODS@@	Goods
 @@TRANSPORT-HGV@@	HGV
 @@TRANSPORT-PSV@@	PSV
 
-@@HIGHWAY-MOTORWAY@@	Motorway
+@@HIGHWAY-MOTORWAY@@	自動車専用道
 @@HIGHWAY-TRUNK@@	Trunk
 @@HIGHWAY-PRIMARY@@	Primary
 @@HIGHWAY-SECONDARY@@	Secondary
@@ -158,44 +158,44 @@
 @@HIGHWAY-RESIDENTIAL@@	Residential
 @@HIGHWAY-SERVICE@@	Service
 @@HIGHWAY-TRACK@@	Track
-@@HIGHWAY-CYCLEWAY@@	Cycleway
+@@HIGHWAY-CYCLEWAY@@	自転車専用道
 @@HIGHWAY-PATH@@	Path
-@@HIGHWAY-STEPS@@	Steps
-@@HIGHWAY-FERRY@@	Ferry
+@@HIGHWAY-STEPS@@	階段
+@@HIGHWAY-FERRY@@	フェリー
 
 @@PROPERTY-PAVED@@	Paved
 @@PROPERTY-MULTILANE@@	Multiple Lanes
-@@PROPERTY-BRIDGE@@	Bridge
-@@PROPERTY-TUNNEL@@	Tunnel
+@@PROPERTY-BRIDGE@@	橋
+@@PROPERTY-TUNNEL@@	トンネル
 @@PROPERTY-WALKINGROUTE@@	Walking Route
 @@PROPERTY-BICYCLEROUTE@@	Bicycle Route
 
 @@RESTRICT-ONEWAY@@	Obey oneway streets
 @@RESTRICT-TURNS@@	Obey turn restrictions
-@@RESTRICT-WEIGHT@@	Weight
-@@RESTRICT-HEIGHT@@	Height
-@@RESTRICT-WIDTH@@	Width
-@@RESTRICT-LENGTH@@	Length
+@@RESTRICT-WEIGHT@@	重量
+@@RESTRICT-HEIGHT@@	高さ
+@@RESTRICT-WIDTH@@	幅
+@@RESTRICT-LENGTH@@	長さ
 
 @@FIND-SHORTEST-ROUTE@@	Find shortest route
 @@FIND-QUICKEST-ROUTE@@	Find quickest route
 
 @@MAP-VIEW-LINK@@	Link to this map view
-@@EDIT-OSM-DATA@@	Edit this OSM data
+@@EDIT-OSM-DATA@@	OSMデータ編集
 
 @@ROUTER-NOT-RUN@@	Router not run
 @@ROUTER-RUNNING@@	Router running...
-@@ROUTER-COMPLETED@@	Routing completed
+@@ROUTER-COMPLETED@@	経路探索完了
 @@ROUTER-ERROR@@	Router error
 @@ROUTER-FAILED@@	Router failed to run
-@@VIEW-DETAILS@@	View Details
+@@VIEW-DETAILS@@	詳細表示
 
 @@NO-INFORMATION@@	No Information
 @@HTML-ROUTE@@	HTML directions
 @@GPX-TRACK-ROUTE@@	GPX track file
 @@GPX-ROUTE@@	GPX route file
 @@FULL-TEXT-ROUTE@@	Full text file
-@@TEXT-ROUTE@@	Text file
+@@TEXT-ROUTE@@	テキストファイル
 @@OPEN-POPUP@@	Open Popup
 
 @@DISPLAY-STATISTICS@@	Display data statistics
@@ -203,7 +203,7 @@
 @@JAVASCRIPT-REQUIRED@@	Javascript is <em>required</em> to use this web page because of the interactive map.
 @@ROUTER@@	Router
 @@GEO-DATA@@	Geo Data
-@@TILES@@	Tiles
+@@TILES@@	タイル
 
 #
 # Visualiser specific translations
@@ -277,7 +277,7 @@ $$TURNS-INFO$$
 Each turn restrictions is shown with a line indicating the disallowed turn.
 $$TURNS-INFO$$
 
-@@SPEED-BUTTON@@	Display Speed Limits
+@@SPEED-BUTTON@@	速度制限表示
 $$SPEED-INFO$$
 Each node that joins segments with different speed limits is shown
 along with the speed limit on relevant segments.
@@ -287,7 +287,7 @@ $$SPEED-INFO$$
 @@LIMIT-NONE@@	No specified limit
 @@SPEED-LIMIT-80@@	80 km/hour speed limit
 
-@@WEIGHT-BUTTON@@	Display Weight Limits
+@@WEIGHT-BUTTON@@	重量制限表示
 $$WEIGHT-INFO$$
 Each node that joins segments with different weight limits is shown
 along with the weight limit on relevant segments.
@@ -295,7 +295,7 @@ $$WEIGHT-INFO$$
 
 @@WEIGHT-LIMIT-8@@	8.0 tonnes weight limit
 
-@@HEIGHT-BUTTON@@	Display Height Limits
+@@HEIGHT-BUTTON@@	高さ制限表示
 $$HEIGHT-INFO$$
 Each node that joins segments with different height limits is shown
 along with the height limit on relevant segments.
@@ -303,7 +303,7 @@ $$HEIGHT-INFO$$
 
 @@HEIGHT-LIMIT-4@@	4.0 m height limit
 
-@@WIDTH-BUTTON@@	Display Width Limits
+@@WIDTH-BUTTON@@	幅制限表示s
 $$WIDTH-INFO$$
 Each node that joins segments with different width limits is shown
 along with the width limit on relevant segments.
@@ -311,7 +311,7 @@ $$WIDTH-INFO$$
 
 @@WIDTH-LIMIT-3@@	3.0 m width limit
 
-@@LENGTH-BUTTON@@	Display Length Limits
+@@LENGTH-BUTTON@@	長さ制限表示
 $$LENGTH-INFO$$
 Each node that joins segments with different length limits is shown
 along with the length limit on relevant segments.
@@ -324,24 +324,24 @@ $$PROPERTY-INFO$$
 Each segment of the highways with a particular property is drawn.
 $$PROPERTY-INFO$$
 
-@@ERROR-LOG-BUTTON@@	Display Error Logs
+@@ERROR-LOG-BUTTON@@	エラーログ表示
 $$ERROR-LOG-INFO$$
 Potential problems found by Routino when processing the input data.
 $$ERROR-LOG-INFO$$
 
-@@CLEAR-DATA-BUTTON@@	Clear data
+@@CLEAR-DATA-BUTTON@@	データ消去
 
 #
 # Multi-line descriptive translations (router)
 #
 
 $$ROUTER-INFO$$
-This web page allows routing within the data collected by OpenStreetMap.
-Select start and end points (click on the marker icons below), select routing preferences then find a route.
+このページはOpenStreetMapの集積データで経路探索が出来ます。
+出発点と到着点を選んで下さい（下のマーカをクリック）。経路の設定を選択し、経路を検索して下さい。
 $$ROUTER-INFO$$
 
 $$ROUTER-OPTIONS-HELP$$
-<b>Quick Start</b>
+<b>クイックスタート</b>
 <br>
 Click on marker icons (above) to place them on the map (right).  Then
 drag them to the correct position.  Zooming the map before placing the
@@ -360,7 +360,7 @@ When a route is calculated it will visit (as close as possible
 for the selected transport type) each of the waypoints that have
 markers on the map in the order given.
 <p>
-<b>Transport Type</b>
+<b>移動方法</b>
 <br>
 Selecting a transport type will restrict the chosen route to
 those on which it is allowed and set default values for the
@@ -374,12 +374,12 @@ For example if a "Primary" road is given a "110%" preference and a "Secondary"
 road is given a "100%" preference then it means that a route on a Primary road
 can be up to 10% longer than on a secondary road and still be selected.
 <p>
-<b>Speed Limits</b>
+<b>速度制限</b>
 <br>
 The speed limits chosen here for the different types of highway apply if the
 highway has no other speed limit marked or it is higher than the chosen one.
 <p>
-<b>Property Preferences</b>
+<b>プロパティ設定</b>
 <br>
 The property preference is selected as a percentage and routes are chosen that
 try to follow highways with the preferred property.
@@ -396,7 +396,7 @@ one-way restrictions (e.g. if walking).
 $$ROUTER-OPTIONS-HELP$$
 
 $$ROUTER-RESULTS-HELP$$
-<b>Quick Start</b>
+<b>クイックスタート</b>
 <br>
 After calculating a route you can download the GPX file or plain
 text route description (summary or detailed version). Also you
@@ -409,7 +409,7 @@ that it is not possible to find a route between the selected points.
 Moving one or more markers or changing the routing options should
 allow a route to be found.
 <p>
-<b>Output Formats</b>
+<b>出力形式</b>
 <br>
 <dl>
   <dt>HTML instructions
@@ -425,8 +425,8 @@ allow a route to be found.
   <dd>A list of all of the nodes visited as well as the distance
     between them and the cumulative distance for each step of the
     route.
-  <dt>Text file
-  <dd>The same information that is displayed in text for the route.
+  <dt>テキストファイル
+  <dd>経路の文字で表示されたのと同じ情報です。
 </dl>
 $$ROUTER-RESULTS-HELP$$
 
@@ -450,10 +450,9 @@ server will only return data if the selected area is small enough.
 $$VISUALISER-INSTRUCTIONS$$
 
 $$VISUALISER-HELP$$
-<b>Quick Start</b>
+<b>クイックスタート</b>
 <br>
-Zoom to an area and select one of the buttons to display that type of
-data.
+エリアを拡大して一つボタンを選択すると、データの型を表示します。
 <br>
 More data options can be found by expanding the details below each
 button.
@@ -466,5 +465,5 @@ again.
 $$VISUALISER-HELP$$
 
 $$VISUALISER-ROUTER-INFO$$
-To perform routing on the map use the link below.
+マップ上で経路探索を行うには下のリンクを使って下さい。
 $$VISUALISER-ROUTER-INFO$$
