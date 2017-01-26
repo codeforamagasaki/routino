@@ -23,14 +23,14 @@ var mapprops={ // contains all properties for the map to be displayed.
   //zoomout:       4,          // Minimum zoom
   //zoomin:       15,          // Maximum zoom
 
-  westedge:  128.0,          // Minimum longitude (degrees)
-  eastedge:  145.0,          // Maximum longitude (degrees)
+  westedge:  135.5,          // Minimum longitude (degrees)
+  eastedge:  135.3,          // Maximum longitude (degrees)
 
-  southedge:  26.0,          // Minimum latitude (degrees)
-  northedge:  45.0,          // Maximum latitude (degrees)
+  southedge:  34.6,          // Minimum latitude (degrees)
+  northedge:  34.8,          // Maximum latitude (degrees)
 
-  zoomout:       6,          // Minimum zoom
-  zoomin:       18,          // Maximum zoom
+  zoomout:      12,          // Minimum zoom
+  zoomin:       19,          // Maximum zoom
 
  // EDIT THIS above to change the visible map limits
 
