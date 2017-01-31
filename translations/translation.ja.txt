@@ -8,7 +8,7 @@
 
 %%copyright_creator_string%%	Creator
 %%copyright_source_string%%	ソース
-%%copyright_source_text%%	Based on OpenStreetMap data from http://www.openstreetmap.org/
+%%copyright_source_text%%	出典 OpenStreetMap http://www.openstreetmap.org/
 %%copyright_license_string%%	利用規約
 
 %%turn_-4%%	Very sharp left
@@ -56,12 +56,12 @@
 %%highway_steps%%	steps
 %%highway_ferry%%	フェリー
 
-%%route_shortest%%	Shortest
-%%route_quickest%%	Quickest
+%%route_shortest%%	最短
+%%route_quickest%%	最速
 
 %%output-html_waypoint_waypoint%%	Waypoint
-%%output-html_waypoint_junction%%	Junction
-%%output-html_waypoint_roundabout%%	Roundabout
+%%output-html_waypoint_junction%%	ジャンクション
+%%output-html_waypoint_roundabout%%	環状交差点
 %%output-html_title%%	%s ルート
 %%output-html_start%%	Start at %s, head %s
 %%output-html_node%%	At %s, go %s heading %s
@@ -86,19 +86,19 @@
 @@LANGUAGE@@	日本語
 @@LANGUAGE-WEBPAGE@@	日本語ウェブページ
 
-@@ROUTER-TITLE@@	Route Planner for OpenStreetMap Data
+@@ROUTER-TITLE@@	OpenStreetMap Dataの経路計画
 
 @@OPTION-TAB@@	オプション
 @@OPTION-TAB-HELP@@	経路オプション設定
 
-@@RESULTS-TAB@@	Results
+@@RESULTS-TAB@@	結果
 @@RESULTS-TAB-HELP@@	経路を見る
 
 @@DATA-TAB@@	データ
 @@DATA-TAB-HELP@@	データベース情報一覧
 
-@@ROUTINO-ROUTER@@	Routino OpenStreetMap Router
-@@ROUTINO-WEBSITE@@	ルーティーノ　ウェブサイト
+@@ROUTINO-ROUTER@@	ルーティーノOpenStreetMap経路探索
+@@ROUTINO-WEBSITE@@	ルーティーノ公式サイト
 @@DOCUMENTATION@@	取扱説明書
 
 @@LANGUAGE-BOX@@	言語
@@ -113,8 +113,8 @@
 @@HELP-BOX@@	ヘルプ
 
 @@STATUS-BOX@@	状態
-@@SHORTEST-ROUTE@@	Shortest Route
-@@QUICKEST-ROUTE@@	Quickest Route
+@@SHORTEST-ROUTE@@	最短経路
+@@QUICKEST-ROUTE@@	最速経路
 
 @@STATISTICS-BOX@@	Routino Statistics
 @@VISUALISER-BOX@@	Routino Visualiser
@@ -167,8 +167,8 @@
 @@PROPERTY-MULTILANE@@	Multiple Lanes
 @@PROPERTY-BRIDGE@@	橋
 @@PROPERTY-TUNNEL@@	トンネル
-@@PROPERTY-WALKINGROUTE@@	Walking Route
-@@PROPERTY-BICYCLEROUTE@@	Bicycle Route
+@@PROPERTY-WALKINGROUTE@@	歩道
+@@PROPERTY-BICYCLEROUTE@@	自転車道
 
 @@RESTRICT-ONEWAY@@	Obey oneway streets
 @@RESTRICT-TURNS@@	Obey turn restrictions
@@ -177,39 +177,39 @@
 @@RESTRICT-WIDTH@@	幅
 @@RESTRICT-LENGTH@@	長さ
 
-@@FIND-SHORTEST-ROUTE@@	Find shortest route
-@@FIND-QUICKEST-ROUTE@@	Find quickest route
+@@FIND-SHORTEST-ROUTE@@	最短経路探索
+@@FIND-QUICKEST-ROUTE@@	最速経路探索
 
-@@MAP-VIEW-LINK@@	Link to this map view
+@@MAP-VIEW-LINK@@	表示している地図へのリンク
 @@EDIT-OSM-DATA@@	OSMデータ編集
 
 @@ROUTER-NOT-RUN@@	Router not run
-@@ROUTER-RUNNING@@	Router running...
+@@ROUTER-RUNNING@@	経路探索中...
 @@ROUTER-COMPLETED@@	経路探索完了
-@@ROUTER-ERROR@@	Router error
+@@ROUTER-ERROR@@	経路異常
 @@ROUTER-FAILED@@	Router failed to run
 @@VIEW-DETAILS@@	詳細表示
 
-@@NO-INFORMATION@@	No Information
+@@NO-INFORMATION@@	情報が有りません
 @@HTML-ROUTE@@	HTML directions
-@@GPX-TRACK-ROUTE@@	GPX track file
-@@GPX-ROUTE@@	GPX route file
+@@GPX-TRACK-ROUTE@@	GPXトラックファイル
+@@GPX-ROUTE@@	GPX経路ファイル
 @@FULL-TEXT-ROUTE@@	Full text file
 @@TEXT-ROUTE@@	テキストファイル
 @@OPEN-POPUP@@	Open Popup
 
 @@DISPLAY-STATISTICS@@	Display data statistics
 
-@@JAVASCRIPT-REQUIRED@@	Javascript is <em>required</em> to use this web page because of the interactive map.
+@@JAVASCRIPT-REQUIRED@@	Javascript is <em>required</em> to use this web page because of the interactive map.当サイトは動的な地図ですので、利用にはJavascriptを有効にする必要が有ります。
 @@ROUTER@@	Router
-@@GEO-DATA@@	Geo Data
+@@GEO-DATA@@	地理情報
 @@TILES@@	タイル
 
 #
 # Visualiser specific translations
 #
 
-@@VISUALISER-TITLE@@	Data Visualiser for Routing Data
+@@VISUALISER-TITLE@@	経路情報を可視化します
 
 @@INSTRUCTIONS-BOX@@	Instructions
 @@ROUTER-BOX@@	Routino Router

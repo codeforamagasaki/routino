@@ -6,7 +6,7 @@
 # EDIT THIS to set the names of the files to download from GeoFabrik.
 #files="europe/great-britain-latest.osm.bz2 europe/ireland-and-northern-ireland-latest.osm.bz2"
 #server="download.geofabrik.de"
-files="osm/extract/planet_135.332,34.674_135.53,34.804.osm.pbf"
+files="osm/extract/planet_135.316,34.675_135.487,34.788.osm.pbf"
 server="download.bbbike.org"
 
 # Download the files

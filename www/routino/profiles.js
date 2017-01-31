@@ -5,7 +5,7 @@
 var routino={ // contains all default Routino options (generated using "--help-profile-json").
 
   // Default transport type
-  transport: "motorcar",
+  transport: "wheelchair",
 
   // Transport types
   transports: { foot: 1, horse: 2, wheelchair: 3, bicycle: 4, moped: 5, motorcycle: 6, motorcar: 7, goods: 8, hgv: 9, psv: 10 },

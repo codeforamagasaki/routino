@@ -243,11 +243,11 @@ Each segment allowed for the chosen type of transport is drawn.
 <table>
 <tr><td>Gyalog: <td><input name="transport" type="radio" value="foot" onchange="displayData('transport');">
 <tr><td>Lovas: <td><input name="transport" type="radio" value="horse" onchange="displayData('transport');">
-<tr><td>Kerekesszékes:<td><input name="transport" type="radio" value="wheelchair" onchange="displayData('transport');">
+<tr><td>Kerekesszékes:<td><input name="transport" type="radio" value="wheelchair" onchange="displayData('transport');" checked>
 <tr><td>Kerékpáros: <td><input name="transport" type="radio" value="bicycle" onchange="displayData('transport');">
 <tr><td>Robogós: <td><input name="transport" type="radio" value="moped" onchange="displayData('transport');">
 <tr><td>Motoros:<td><input name="transport" type="radio" value="motorcycle" onchange="displayData('transport');">
-<tr><td>Autós: <td><input name="transport" type="radio" value="motorcar" onchange="displayData('transport');" checked>
+<tr><td>Autós: <td><input name="transport" type="radio" value="motorcar" onchange="displayData('transport');">
 <tr><td>Kisteherautós: <td><input name="transport" type="radio" value="goods" onchange="displayData('transport');">
 <tr><td>Kamionos: <td><input name="transport" type="radio" value="hgv" onchange="displayData('transport');">
 <tr><td>Buszos: <td><input name="transport" type="radio" value="psv" onchange="displayData('transport');">
@@ -266,11 +266,11 @@ Each barrier blocking the chosen type of transport is drawn.
 <table>
 <tr><td>Gyalog: <td><input name="barrier" type="radio" value="foot" onchange="displayData('barrier');">
 <tr><td>Lovas: <td><input name="barrier" type="radio" value="horse" onchange="displayData('barrier');">
-<tr><td>Kerekesszékes:<td><input name="barrier" type="radio" value="wheelchair" onchange="displayData('barrier');">
+<tr><td>Kerekesszékes:<td><input name="barrier" type="radio" value="wheelchair" onchange="displayData('barrier');" checked>
 <tr><td>Kerékpáros: <td><input name="barrier" type="radio" value="bicycle" onchange="displayData('barrier');">
 <tr><td>Robogós: <td><input name="barrier" type="radio" value="moped" onchange="displayData('barrier');">
 <tr><td>Motoros:<td><input name="barrier" type="radio" value="motorcycle" onchange="displayData('barrier');">
-<tr><td>Autós: <td><input name="barrier" type="radio" value="motorcar" onchange="displayData('barrier');" checked>
+<tr><td>Autós: <td><input name="barrier" type="radio" value="motorcar" onchange="displayData('barrier');">
 <tr><td>Kisteherautós: <td><input name="barrier" type="radio" value="goods" onchange="displayData('barrier');">
 <tr><td>Kamionos: <td><input name="barrier" type="radio" value="hgv" onchange="displayData('barrier');">
 <tr><td>Buszos: <td><input name="barrier" type="radio" value="psv" onchange="displayData('barrier');">

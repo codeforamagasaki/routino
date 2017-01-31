@@ -8,6 +8,295 @@ Node 1257494037 has an unrecognised tag 'barrier' = 'cycle_barrier' (in tagging 
 Node 1583528071 has an unrecognised tag 'barrier' = 'cycle_barrier' (in tagging rules); ignoring it.
 Node 1623834888 has an unrecognised tag 'barrier' = 'cycle_barrier' (in tagging rules); ignoring it.
 Node 1623834924 has an unrecognised tag 'barrier' = 'cycle_barrier' (in tagging rules); ignoring it.
+Node 1833074951 has an unrecognised tag 'barrier' = 'cycle_barrier' (in tagging rules); ignoring it.
+Node 1833074952 has an unrecognised tag 'barrier' = 'cycle_barrier' (in tagging rules); ignoring it.
+Node 1833074966 has an unrecognised tag 'barrier' = 'cycle_barrier' (in tagging rules); ignoring it.
+Node 1833074968 has an unrecognised tag 'barrier' = 'cycle_barrier' (in tagging rules); ignoring it.
+Node 2043295419 has an unrecognised tag 'barrier' = 'cycle_barrier' (in tagging rules); ignoring it.
+Node 2118764700 has an unrecognised tag 'wheelchair' = 'unknown' (after tagging rules); using 'yes'.
+Node 2142697780 has an unrecognised tag 'barrier' = 'lidt' (in tagging rules); ignoring it.
+Node 2701199317 has an unrecognised tag 'access' = 'customers' (in tagging rules); using 'no'.
+Node 3087690981 has an unrecognised tag 'barrier' = 'cycle_barrier' (in tagging rules); ignoring it.
+Node 3087690993 has an unrecognised tag 'barrier' = 'cycle_barrier' (in tagging rules); ignoring it.
+Node 3087690997 has an unrecognised tag 'barrier' = 'cycle_barrier' (in tagging rules); ignoring it.
+Node 3087691004 has an unrecognised tag 'barrier' = 'cycle_barrier' (in tagging rules); ignoring it.
+Node 3090772038 has an unrecognised tag 'barrier' = 'cycle_barrier' (in tagging rules); ignoring it.
+Node 3090772042 has an unrecognised tag 'barrier' = 'cycle_barrier' (in tagging rules); ignoring it.
+Node 3107250657 has an unrecognised tag 'barrier' = 'cycle_barrier' (in tagging rules); ignoring it.
+Node 3107250658 has an unrecognised tag 'barrier' = 'cycle_barrier' (in tagging rules); ignoring it.
+Node 3372015700 has an unrecognised tag 'barrier' = 'cycle_barrier' (in tagging rules); ignoring it.
+Node 3372015701 has an unrecognised tag 'barrier' = 'cycle_barrier' (in tagging rules); ignoring it.
+Node 3386705493 has an unrecognised tag 'access' = 'customers' (in tagging rules); using 'no'.
+Node 3780759308 has an unrecognised tag 'access' = 'customers' (in tagging rules); using 'no'.
+Node 3780759332 has an unrecognised tag 'access' = 'customers' (in tagging rules); using 'no'.
+Node 3814915756 has an unrecognised tag 'access' = 'customers' (in tagging rules); using 'no'.
+Node 3837063102 has an unrecognised tag 'access' = 'customers' (in tagging rules); using 'no'.
+Node 3848548680 has an unrecognised tag 'access' = 'customers' (in tagging rules); using 'no'.
+Node 3857966495 has an unrecognised tag 'access' = 'customers' (in tagging rules); using 'no'.
+Node 3891253048 has an unrecognised tag 'barrier' = 'cycle_barrier' (in tagging rules); ignoring it.
+Node 4037751119 has an unrecognised tag 'access' = 'customers' (in tagging rules); using 'no'.
+Node 4046787162 has an unrecognised tag 'access' = 'customers' (in tagging rules); using 'no'.
+Node 4071235075 has an unrecognised tag 'access' = 'access:conditional=yes @ Mo-Fr 08:45-19:00;Sa 08:45-17:00;Su, PH 09:00-17:00' (in tagging rules); using 'no'.
+Node 4111824503 has an unrecognised tag 'access' = 'customers' (in tagging rules); using 'no'.
+Node 4111824504 has an unrecognised tag 'access' = 'customers' (in tagging rules); using 'no'.
+Node 4172715193 has an unrecognised tag 'barrier' = 'cycle_barrier' (in tagging rules); ignoring it.
+Node 4177490802 has an unrecognised tag 'access' = 'customers' (in tagging rules); using 'no'.
+Node 4178701034 has an unrecognised tag 'barrier' = 'cycle_barrier' (in tagging rules); ignoring it.
+Node 4283365040 has an unrecognised tag 'access' = 'customers' (in tagging rules); using 'no'.
+Node 4315387333 has an unrecognised tag 'access' = 'customers' (in tagging rules); using 'no'.
+Node 4447305554 has an unrecognised tag 'access' = 'customers' (in tagging rules); using 'no'.
+Node 4452907482 has an unrecognised tag 'access' = 'customers' (in tagging rules); using 'no'.
+Node 4452907483 has an unrecognised tag 'access' = 'customers' (in tagging rules); using 'no'.
+Node 4474453461 has an unrecognised tag 'access' = 'customers' (in tagging rules); using 'no'.
+Node 4474453465 has an unrecognised tag 'access' = 'customers' (in tagging rules); using 'no'.
+Node 4586385746 has an unrecognised tag 'foot' = 'yes2' (after tagging rules); using 'yes'.
+Node 4620236958 has an unrecognised tag 'access' = 'customers' (in tagging rules); using 'no'.
+Node 4620236960 has an unrecognised tag 'access' = 'customers' (in tagging rules); using 'no'.
+Way 23853069 has only one node.
+Way 24603899 has only one node.
+Way 38169169 has only one node.
+Way 58974416 has only one node.
+Way 82729699 has only one node.
+Way 92904122 has only one node.
+Way 110671756 has only one node.
+Way 122131059 has only one node.
+Way 122269271 has only one node.
+Way 122400030 has only one node.
+Way 122781553 has only one node.
+Way 127362323 has only one node.
+Way 127362329 has only one node.
+Way 127816675 has only one node.
+Way 127816702 has only one node.
+Way 128750008 has only one node.
+Way 128750214 has only one node.
+Way 128750261 has only one node.
+Way 130653211 has only one node.
+Way 131492337 has only one node.
+Way 131492342 has only one node.
+Way 131668142 is cyclebothways but not oneway; ignoring cyclebothways tag.
+Way 131668154 is cyclebothways but not oneway; ignoring cyclebothways tag.
+Way 133148055 has only one node.
+Way 133148126 has only one node.
+Way 133148474 has only one node.
+Way 133148616 has only one node.
+Way 133148634 has only one node.
+Way 133353793 has only one node.
+Way 135623581 has only one node.
+Way 135645668 has only one node.
+Way 137314225 has only one node.
+Way 137314233 has only one node.
+Way 137623899 has only one node.
+Way 138285167 has only one node.
+Way 144846770 has only one node.
+Way 144846773 has only one node.
+Way 144851786 has only one node.
+Way 144851868 has only one node.
+Way 144856979 has only one node.
+Way 144858352 has only one node.
+Way 144858651 has only one node.
+Way 144860016 has only one node.
+Way 144861745 has only one node.
+Way 144862743 has only one node.
+Way 144863495 has only one node.
+Way 144864075 has only one node.
+Way 144864514 has only one node.
+Way 144865287 has only one node.
+Way 144865788 has only one node.
+Way 147096004 has only one node.
+Way 147101148 has only one node.
+Way 147101191 has only one node.
+Way 147101230 has only one node.
+Way 147861901 has only one node.
+Way 147862049 has only one node.
+Way 147862088 has only one node.
+Way 147862113 has only one node.
+Way 147862207 has only one node.
+Way 148638757 has only one node.
+Way 148650732 has only one node.
+Way 148650767 has only one node.
+Way 148650792 has only one node.
+Way 148650811 has only one node.
+Way 150341810 has only one node.
+Way 150355030 has only one node.
+Way 151798498 has only one node.
+Way 152774501 has only one node.
+Way 152775406 has only one node.
+Way 152775469 has only one node.
+Way 152783042 has only one node.
+Way 155548565 has only one node.
+Way 155548566 has only one node.
+Way 155755188 has only one node.
+Way 156577662 has only one node.
+Way 157807322 has only one node.
+Way 158297348 has only one node.
+Way 158525525 has only one node.
+Way 159977153 has only one node.
+Way 161620242 has only one node.
+Way 161620243 has only one node.
+Way 169959309 has only one node.
+Way 172951102 has only one node.
+Way 172951366 has only one node.
+Way 172951448 has only one node.
+Way 172951571 has only one node.
+Way 172951588 has only one node.
+Way 172951694 has only one node.
+Way 172951719 has only one node.
+Way 172951769 has only one node.
+Way 176265232 has only one node.
+Way 176808207 has only one node.
+Way 176808243 has only one node.
+Way 183810185 has only one node.
+Way 183810194 has only one node.
+Way 184362871 has only one node.
+Way 186894365 has only one node.
+Way 188183691 has only one node.
+Way 197661066 has only one node.
+Way 197661083 has only one node.
+Way 197661263 has only one node.
+Way 197661312 has only one node.
+Way 197661398 has only one node.
+Way 197733911 has only one node.
+Way 197734019 has only one node.
+Way 198993750 has only one node.
+Way 199052723 has only one node.
+Way 199354766 has only one node.
+Way 199354776 has only one node.
+Way 199354822 has only one node.
+Way 199354858 has only one node.
+Way 200441695 has only one node.
+Way 200441699 has only one node.
+Way 200441835 has only one node.
+Way 200441893 has only one node.
+Way 200442333 has only one node.
+Way 200442555 has only one node.
+Way 200704223 has only one node.
+Way 222711580 has only one node.
+Way 224359974 has only one node.
+Way 224421539 has only one node.
+Way 224421546 has only one node.
+Way 224813042 has only one node.
+Way 226318189 has only one node.
+Way 226350444 has only one node.
+Way 228256103 has only one node.
+Way 229026228 has only one node.
+Way 229054415 has only one node.
+Way 229240390 has only one node.
+Way 229297731 has only one node.
+Way 229419498 has only one node.
+Way 229475863 has only one node.
+Way 231449193 has only one node.
+Way 231449209 has only one node.
+Way 233622365 has only one node.
+Way 242065035 has only one node.
+Way 245454624 is an area but not closed.
+Way 246417756 has only one node.
+Way 246561668 has only one node.
+Way 246587941 has only one node.
+Way 249377303 has only one node.
+Way 249377304 has only one node.
+Way 254574154 has only one node.
+Way 270645465 has only one node.
+Way 270645467 has only one node.
+Way 270645469 has only one node.
+Way 270645470 has only one node.
+Way 288437210 has only one node.
+Way 291547246 has only one node.
+Way 291547454 has only one node.
+Way 293255707 has only one node.
+Way 298238063 has only one node.
+Way 298238128 has only one node.
+Way 298261222 has only one node.
+Way 303123959 has only one node.
+Way 303124047 has only one node.
+Way 303157691 has only one node.
+Way 303157719 has only one node.
+Way 303235759 has only one node.
+Way 308852532 has an unrecognised tag 'surface' = 'as' (in tagging rules); ignoring it.
+Way 310890565 has only one node.
+Way 310890567 has only one node.
+Way 311756592 has only one node.
+Way 312209926 has only one node.
+Way 312330672 has only one node.
+Way 312811932 has only one node.
+Way 312865452 has only one node.
+Way 313006468 has only one node.
+Way 313308091 has only one node.
+Way 313308093 has only one node.
+Way 313308285 has only one node.
+Way 315141459 has only one node.
+Way 315141463 has only one node.
+Way 315386644 has only one node.
+Way 315386645 has only one node.
+Way 315386646 has only one node.
+Way 315435797 has only one node.
+Way 331607562 has only one node.
+Way 331607566 has only one node.
+Way 332292072 has only one node.
+Way 332292088 has only one node.
+Way 332292114 has only one node.
+Way 352693535 has an unrecognised tag 'highway' = 'corridor' (in tagging rules); ignoring it.
+Way 353127568 has an unrecognised tag 'highway' = 'corridor' (in tagging rules); ignoring it.
+Way 357449636 has only one node.
+Way 357449666 has only one node.
+Way 357449676 has only one node.
+Way 360439074 has an unrecognised tag 'highway' = 'corridor' (in tagging rules); ignoring it.
+Way 368328714 has only one node.
+Way 368328720 has only one node.
+Way 370962573 has an unrecognised tag 'highway' = 'corridor' (in tagging rules); ignoring it.
+Way 372451009 has only one node.
+Way 372458293 has only one node.
+Way 372458296 has only one node.
+Way 380888391 has only one node.
+Way 388969485 has only one node.
+Way 404949028 has an unrecognised tag 'highway' = 'elevator' (in tagging rules); ignoring it.
+Way 406388490 has an unrecognised tag 'highway' = 'corridor' (in tagging rules); ignoring it.
+Way 409067774 has an unrecognised tag 'highway' = 'corridor' (in tagging rules); ignoring it.
+Way 414596303 has only one node.
+Way 435611982 has an unrecognised tag 'highway' = 'elevator' (in tagging rules); ignoring it.
+Way 442370586 has only one node.
+Way 443542155 has only one node.
+Way 443542158 has only one node.
+Way 443542161 has only one node.
+Way 443542164 has only one node.
+Way 443937130 has only one node.
+Way 443937136 has only one node.
+Way 443937137 has only one node.
+Way 444998824 has only one node.
+Way 449085148 has an unrecognised tag 'wheelchair' = 'y' (after tagging rules); using 'no'.
+Way 449479562 has only one node.
+Way 449479563 has only one node.
+Way 449489067 has only one node.
+Way 449489068 has only one node.
+Way 449780572 has only one node.
+Way 461899506 has only one node.
+Way 461902131 has only one node.
+Way 463348128 has only one node.
+Way 463348136 has only one node.
+Way 463552426 has only one node.
+Way 463778411 has only one node.
+Way 463778412 has only one node.
+Way 463778413 has only one node.
+Way 463778423 has only one node.
+Way 463778424 has only one node.
+Way 463778425 has only one node.
+Way 463778426 has only one node.
+Way 464074470 has only one node.
+Way 464205239 has only one node.
+Relation 170227 is a turn restriction but has no 'to' way.
+Relation 2552493 is a turn restriction but has no 'from' way.
+Relation 2552493 is a turn restriction but has no 'via' node.
+Relation 3881401 is a turn restriction but has no 'from' way.
+Relation 3881401 is a turn restriction but has no 'via' node.
+Node 435021276 has an unrecognised tag 'barrier' = 'cycle_barrier' (in tagging rules); ignoring it.
+Node 926008645 has an unrecognised tag 'barrier' = 'cycle_barrier' (in tagging rules); ignoring it.
+Node 926008832 has an unrecognised tag 'barrier' = 'cycle_barrier' (in tagging rules); ignoring it.
+Node 926541281 has an unrecognised tag 'barrier' = 'fence' (in tagging rules); ignoring it.
+Node 926541596 has an unrecognised tag 'barrier' = 'cycle_barrier' (in tagging rules); ignoring it.
+Node 1257493739 has an unrecognised tag 'barrier' = 'cycle_barrier' (in tagging rules); ignoring it.
+Node 1257494037 has an unrecognised tag 'barrier' = 'cycle_barrier' (in tagging rules); ignoring it.
+Node 1583528071 has an unrecognised tag 'barrier' = 'cycle_barrier' (in tagging rules); ignoring it.
+Node 1623834888 has an unrecognised tag 'barrier' = 'cycle_barrier' (in tagging rules); ignoring it.
+Node 1623834924 has an unrecognised tag 'barrier' = 'cycle_barrier' (in tagging rules); ignoring it.
 Node 1695018890 has an unrecognised tag 'barrier' = 'cycle_barrier' (in tagging rules); ignoring it.
 Node 1833074951 has an unrecognised tag 'barrier' = 'cycle_barrier' (in tagging rules); ignoring it.
 Node 1833074952 has an unrecognised tag 'barrier' = 'cycle_barrier' (in tagging rules); ignoring it.
@@ -385,21 +674,330 @@ Relation 3899727 is a turn restriction but has no 'via' node.
 Relation 6122959 is a turn restriction but has no 'to' way.
 Relation 6122962 is a turn restriction but has no 'to' way.
 Segment connecting nodes 402311742 and 1713794424 in way 159275679 is duplicated.
+Segment connecting nodes 405738268 and 1996913873 is duplicated.
+Segment connecting nodes 412437239 and 534581097 is duplicated.
+Segment connecting nodes 412437239 and 1996913907 is duplicated.
+Segment connecting nodes 469133524 and 1995844045 is duplicated.
+Segment connecting nodes 469133524 and 1995844363 is duplicated.
+Segment connecting nodes 534581097 and 1996913873 is duplicated.
+Segment connecting nodes 534581161 and 3844341578 is duplicated.
+Segment connecting nodes 534581161 and 3844341584 is duplicated.
+Segment connecting nodes 728692019 and 1429747203 is duplicated.
+Segment connecting nodes 728692019 and 1429747210 is duplicated.
+Segment connecting nodes 728692021 and 728692022 is duplicated.
+Segment connecting nodes 728692021 and 1429747203 is duplicated.
+Segment connecting nodes 728692022 and 728692023 is duplicated.
+Segment connecting nodes 728692023 and 728692024 is duplicated.
+Segment connecting nodes 728692024 and 728692025 is duplicated.
+Segment connecting nodes 728692025 and 728692026 is duplicated.
+Segment connecting nodes 728692026 and 1602960915 is duplicated.
+Segment connecting nodes 728692027 and 1429747178 is duplicated.
+Segment connecting nodes 728692032 and 728692099 is duplicated.
+Segment connecting nodes 728692032 and 1429747211 is duplicated.
+Segment connecting nodes 728692099 and 728692285 is duplicated.
+Segment connecting nodes 728692180 and 728692285 is duplicated.
+Segment connecting nodes 728692180 and 728708743 is duplicated.
+Segment connecting nodes 728692592 and 728708715 is duplicated.
+Segment connecting nodes 728708663 and 1428016363 is duplicated.
+Segment connecting nodes 728708715 and 1429747211 is duplicated.
+Segment connecting nodes 728708743 and 1426952765 is duplicated.
+Segment connecting nodes 729605436 and 1449603676 is duplicated.
+Segment connecting nodes 729605538 and 1449603663 is duplicated.
+Segment connecting nodes 729605584 and 1449603663 is duplicated.
+Segment connecting nodes 729605584 and 1449603676 is duplicated.
+Segment connecting nodes 926541281 and 926541566 is duplicated.
+Segment connecting nodes 926541383 and 3891253048 is duplicated.
+Segment connecting nodes 926541566 and 3891253048 is duplicated.
+Segment connecting nodes 941389578 and 1741202556 is duplicated.
+Segment connecting nodes 1404335970 and 2090521771 is duplicated.
+Segment connecting nodes 1404335970 and 2090976968 is duplicated.
 Segment connecting nodes 1404336063 and 1404336073 is duplicated.
+Segment connecting nodes 1404336084 and 1440259917 is duplicated.
+Segment connecting nodes 1421917337 and 1421917348 is duplicated.
+Segment connecting nodes 1421917414 and 1448813422 is duplicated.
+Segment connecting nodes 1421917504 and 1448885398 is duplicated.
+Segment connecting nodes 1421917504 and 1448885416 is duplicated.
+Segment connecting nodes 1421917627 and 1448813428 is duplicated.
+Segment connecting nodes 1421917627 and 1448813431 is duplicated.
+Segment connecting nodes 1421917935 and 1421917938 is duplicated.
+Segment connecting nodes 1421917938 and 1449603786 is duplicated.
+Segment connecting nodes 1429747178 and 1602960915 is duplicated.
+Segment connecting nodes 1429747210 and 1602961056 is duplicated.
+Segment connecting nodes 1448813424 and 1448813425 is duplicated.
+Segment connecting nodes 1448813424 and 1448885426 is duplicated.
+Segment connecting nodes 1448813425 and 1448813426 is duplicated.
+Segment connecting nodes 1448813426 and 1448813427 is duplicated.
+Segment connecting nodes 1448813427 and 1448885450 is duplicated.
+Segment connecting nodes 1448813428 and 1448813430 is duplicated.
+Segment connecting nodes 1448813429 and 1448813430 is duplicated.
+Segment connecting nodes 1448813429 and 1448885450 is duplicated.
+Segment connecting nodes 1448885359 and 1448885363 is duplicated.
+Segment connecting nodes 1448885361 and 1448885374 is duplicated.
+Segment connecting nodes 1448885374 and 1448885381 is duplicated.
+Segment connecting nodes 1448885392 and 1448885398 is duplicated.
+Segment connecting nodes 1448885392 and 4584060210 is duplicated.
+Segment connecting nodes 1448885438 and 1448885440 is duplicated.
+Segment connecting nodes 1449603789 and 1449603790 is duplicated.
+Segment connecting nodes 1449603790 and 1449603791 is duplicated.
+Segment connecting nodes 1449603791 and 1997011387 is duplicated.
+Segment connecting nodes 1465056037 and 2419790892 is duplicated.
 Segment connecting nodes 1583522369 and 1583522375 is duplicated.
+Segment connecting nodes 1583522416 and 1583522429 is duplicated.
+Segment connecting nodes 1583522672 and 1583522673 is duplicated.
+Segment connecting nodes 1583522672 and 1583522765 is duplicated.
+Segment connecting nodes 1583522673 and 3808724421 is duplicated.
+Segment connecting nodes 1583522685 and 3808724421 is duplicated.
+Segment connecting nodes 1583524083 and 1583524096 is duplicated.
+Segment connecting nodes 1583524096 and 1583524100 is duplicated.
+Segment connecting nodes 1583524100 and 1583524110 is duplicated.
+Segment connecting nodes 1583524110 and 1583524132 is duplicated.
+Segment connecting nodes 1583524132 and 1583524161 is duplicated.
+Segment connecting nodes 1583524161 and 1583524283 is duplicated.
+Segment connecting nodes 1602961056 and 1602961059 is duplicated.
+Segment connecting nodes 1602961059 and 1602961071 is duplicated.
+Segment connecting nodes 1712433482 and 3343639703 is duplicated.
 Segment connecting nodes 1713794487 and 1713794573 in way 159275678 is duplicated.
 Segment connecting nodes 1713870094 and 1762859549 in way 159281199 is duplicated.
 Segment connecting nodes 1721532542 and 1721532556 is duplicated.
+Segment connecting nodes 1741202556 and 1868090671 is duplicated.
 Segment connecting nodes 1821924243 and 1939567821 is duplicated.
+Segment connecting nodes 1841035029 and 1841035057 is duplicated.
+Segment connecting nodes 1841035407 and 3351610914 is duplicated.
+Segment connecting nodes 1841035465 and 3351610914 is duplicated.
+Segment connecting nodes 1841036166 and 3351610924 is duplicated.
+Segment connecting nodes 1841036232 and 3351610924 is duplicated.
+Segment connecting nodes 1841036232 and 3351610927 is duplicated.
+Segment connecting nodes 1841037060 and 3343639695 is duplicated.
+Segment connecting nodes 1841037060 and 3343639696 is duplicated.
 Segment connecting nodes 1867168948 and 2534948165 in way 246452704 is duplicated.
 Segment connecting nodes 1867168948 and 2534948165 is duplicated.
+Segment connecting nodes 1868090669 and 1868090677 is duplicated.
+Segment connecting nodes 1868090669 and 2376653670 is duplicated.
+Segment connecting nodes 1868090671 and 2376653670 is duplicated.
+Segment connecting nodes 1868090677 and 1868090680 is duplicated.
+Segment connecting nodes 1868090680 and 1868090682 is duplicated.
+Segment connecting nodes 1868090682 and 1868090683 is duplicated.
+Segment connecting nodes 1868090683 and 1868090689 is duplicated.
+Segment connecting nodes 1868090689 and 1868090691 is duplicated.
+Segment connecting nodes 1970039187 and 1976197480 is duplicated.
+Segment connecting nodes 1970039187 and 2031285959 is duplicated.
+Segment connecting nodes 1976197480 and 2088247605 is duplicated.
+Segment connecting nodes 1987121922 and 2056356940 is duplicated.
+Segment connecting nodes 1987121922 and 3844341603 is duplicated.
+Segment connecting nodes 1995843624 and 1995843933 is duplicated.
+Segment connecting nodes 1995843624 and 1996913912 is duplicated.
+Segment connecting nodes 1995843933 and 1996913991 is duplicated.
+Segment connecting nodes 1995844045 and 1996914001 is duplicated.
+Segment connecting nodes 1995844363 and 2088319299 is duplicated.
+Segment connecting nodes 1995845566 and 1995845830 is duplicated.
+Segment connecting nodes 1995845566 and 2063434312 is duplicated.
+Segment connecting nodes 1995845830 and 3844341578 is duplicated.
+Segment connecting nodes 1996913907 and 1996913912 is duplicated.
+Segment connecting nodes 1996913991 and 1996914001 is duplicated.
+Segment connecting nodes 1996914281 and 1996914350 is duplicated.
+Segment connecting nodes 1996914281 and 2088319299 is duplicated.
+Segment connecting nodes 1996914350 and 1996914363 is duplicated.
+Segment connecting nodes 1996914363 and 1996914392 is duplicated.
+Segment connecting nodes 1996914392 and 1996914404 is duplicated.
+Segment connecting nodes 1996914404 and 3848386970 is duplicated.
+Segment connecting nodes 1996914442 and 1996914452 is duplicated.
+Segment connecting nodes 1996914442 and 3848386970 is duplicated.
+Segment connecting nodes 1996914452 and 2030417102 is duplicated.
 Segment connecting nodes 2010716906 and 2046235501 is duplicated.
+Segment connecting nodes 2030417102 and 2063434312 is duplicated.
+Segment connecting nodes 2031285959 and 3844341587 is duplicated.
+Segment connecting nodes 2050009764 and 2050009824 is duplicated.
+Segment connecting nodes 2050009764 and 3844341603 is duplicated.
+Segment connecting nodes 2050009824 and 2056356836 is duplicated.
+Segment connecting nodes 2055585498 and 2055585507 is duplicated.
+Segment connecting nodes 2055585498 and 2055585509 is duplicated.
+Segment connecting nodes 2055585500 and 2055585505 is duplicated.
+Segment connecting nodes 2055585505 and 2055585507 is duplicated.
+Segment connecting nodes 2055585509 and 2055585511 is duplicated.
+Segment connecting nodes 2055585511 and 3770474424 is duplicated.
+Segment connecting nodes 2055585516 and 3770474424 is duplicated.
+Segment connecting nodes 2055585557 and 2055585567 is duplicated.
+Segment connecting nodes 2055585567 and 2055585583 is duplicated.
+Segment connecting nodes 2055585583 and 2055585587 is duplicated.
+Segment connecting nodes 2055585587 and 2055585591 is duplicated.
+Segment connecting nodes 2055585591 and 2055585601 is duplicated.
+Segment connecting nodes 2055585601 and 2055585618 is duplicated.
+Segment connecting nodes 2055585618 and 2055585677 is duplicated.
+Segment connecting nodes 2055585677 and 2055585683 is duplicated.
+Segment connecting nodes 2055585683 and 2055585689 is duplicated.
+Segment connecting nodes 2055585689 and 2055585828 is duplicated.
+Segment connecting nodes 2055585828 and 2055585836 is duplicated.
+Segment connecting nodes 2055585836 and 2055585837 is duplicated.
+Segment connecting nodes 2055585837 and 2055585843 is duplicated.
+Segment connecting nodes 2055585843 and 2055585916 is duplicated.
+Segment connecting nodes 2055585916 and 2055585952 is duplicated.
+Segment connecting nodes 2055585952 and 2055585967 is duplicated.
+Segment connecting nodes 2055586310 and 4437997388 is duplicated.
+Segment connecting nodes 2055586324 and 2055586362 is duplicated.
+Segment connecting nodes 2055586362 and 2055586370 is duplicated.
+Segment connecting nodes 2055586370 and 2055586406 is duplicated.
+Segment connecting nodes 2055586406 and 4425010119 is duplicated.
+Segment connecting nodes 2055586488 and 4425010119 is duplicated.
+Segment connecting nodes 2055643309 and 2055643310 is duplicated.
+Segment connecting nodes 2055643309 and 2055643313 is duplicated.
+Segment connecting nodes 2055643310 and 2055643311 is duplicated.
+Segment connecting nodes 2055643311 and 2055643312 is duplicated.
+Segment connecting nodes 2055643312 and 2055643315 is duplicated.
+Segment connecting nodes 2055643313 and 2055643314 is duplicated.
+Segment connecting nodes 2055643314 and 2055643316 is duplicated.
+Segment connecting nodes 2055643315 and 2055643317 is duplicated.
+Segment connecting nodes 2055643316 and 2055643318 is duplicated.
+Segment connecting nodes 2055643317 and 2055643320 is duplicated.
+Segment connecting nodes 2055643318 and 2055643319 is duplicated.
+Segment connecting nodes 2055643319 and 2055643320 is duplicated.
+Segment connecting nodes 2055643320 and 2055643322 is duplicated.
+Segment connecting nodes 2055643322 and 2055643327 is duplicated.
+Segment connecting nodes 2055643327 and 3683240206 is duplicated.
+Segment connecting nodes 2055643328 and 2055643331 is duplicated.
+Segment connecting nodes 2055643328 and 3683240217 is duplicated.
+Segment connecting nodes 2055643331 and 2055643333 is duplicated.
+Segment connecting nodes 2055643332 and 2055643334 is duplicated.
+Segment connecting nodes 2055643334 and 2055643335 is duplicated.
+Segment connecting nodes 2055643335 and 2055643336 is duplicated.
+Segment connecting nodes 2055643336 and 2055643340 is duplicated.
+Segment connecting nodes 2055643338 and 2055643339 is duplicated.
+Segment connecting nodes 2055643339 and 2055643341 is duplicated.
+Segment connecting nodes 2055643340 and 2055643343 is duplicated.
+Segment connecting nodes 2055643341 and 2055643351 is duplicated.
+Segment connecting nodes 2055643343 and 2055643352 is duplicated.
+Segment connecting nodes 2055643344 and 2055643345 is duplicated.
+Segment connecting nodes 2055643344 and 2055643347 is duplicated.
+Segment connecting nodes 2055643345 and 2055643346 is duplicated.
+Segment connecting nodes 2055643346 and 2055643353 is duplicated.
+Segment connecting nodes 2055643347 and 2055643357 is duplicated.
+Segment connecting nodes 2055643348 and 2055643349 is duplicated.
+Segment connecting nodes 2055643348 and 2055643350 is duplicated.
+Segment connecting nodes 2055643349 and 2055643355 is duplicated.
+Segment connecting nodes 2055643350 and 2055643356 is duplicated.
+Segment connecting nodes 2055643351 and 2055643353 is duplicated.
+Segment connecting nodes 2055643352 and 2055643354 is duplicated.
+Segment connecting nodes 2055643354 and 2055643355 is duplicated.
+Segment connecting nodes 2055643354 and 2055643360 is duplicated.
+Segment connecting nodes 2055643356 and 2055643361 is duplicated.
+Segment connecting nodes 2055643357 and 2055643362 is duplicated.
+Segment connecting nodes 2055643361 and 2055643369 is duplicated.
+Segment connecting nodes 2055643362 and 2055643373 is duplicated.
+Segment connecting nodes 2055643364 and 2055643367 is duplicated.
+Segment connecting nodes 2055643364 and 2055643371 is duplicated.
+Segment connecting nodes 2055643367 and 2055643384 is duplicated.
+Segment connecting nodes 2055643368 and 2055643370 is duplicated.
+Segment connecting nodes 2055643368 and 2055643383 is duplicated.
+Segment connecting nodes 2055643369 and 2055643381 is duplicated.
+Segment connecting nodes 2055643370 and 2055643378 is duplicated.
+Segment connecting nodes 2055643371 and 2055643387 is duplicated.
+Segment connecting nodes 2055643375 and 2055643381 is duplicated.
+Segment connecting nodes 2055643379 and 2055643485 is duplicated.
+Segment connecting nodes 2055643380 and 2055643382 is duplicated.
+Segment connecting nodes 2055643382 and 2055643384 is duplicated.
+Segment connecting nodes 2055643383 and 2055643482 is duplicated.
+Segment connecting nodes 2055643385 and 2055643386 is duplicated.
+Segment connecting nodes 2055643386 and 2055643387 is duplicated.
+Segment connecting nodes 2055643482 and 2055643483 is duplicated.
+Segment connecting nodes 2055643483 and 2055643486 is duplicated.
+Segment connecting nodes 2055643485 and 2055643487 is duplicated.
+Segment connecting nodes 2055643487 and 2055643496 is duplicated.
+Segment connecting nodes 2055643488 and 2055643489 is duplicated.
+Segment connecting nodes 2055643488 and 2055643494 is duplicated.
+Segment connecting nodes 2055643489 and 2055643490 is duplicated.
+Segment connecting nodes 2055643490 and 2055643491 is duplicated.
+Segment connecting nodes 2055643491 and 2055643493 is duplicated.
+Segment connecting nodes 2055643492 and 2055643493 is duplicated.
+Segment connecting nodes 2055643494 and 2055643495 is duplicated.
+Segment connecting nodes 2055643495 and 2055643498 is duplicated.
+Segment connecting nodes 2055643496 and 2055643497 is duplicated.
+Segment connecting nodes 2055643497 and 2055643498 is duplicated.
+Segment connecting nodes 2056025510 and 2056025514 is duplicated.
+Segment connecting nodes 2056025512 and 3743340906 is duplicated.
+Segment connecting nodes 2056025514 and 2056025516 is duplicated.
+Segment connecting nodes 2056025521 and 2056025527 is duplicated.
+Segment connecting nodes 2056025523 and 2056025539 is duplicated.
+Segment connecting nodes 2056025523 and 3743340903 is duplicated.
+Segment connecting nodes 2056025527 and 2056025611 is duplicated.
+Segment connecting nodes 2056025539 and 2056025602 is duplicated.
+Segment connecting nodes 2056025602 and 2056025605 is duplicated.
+Segment connecting nodes 2056025605 and 2056025612 is duplicated.
+Segment connecting nodes 2056025609 and 2056025615 is duplicated.
+Segment connecting nodes 2056025615 and 3270603405 is duplicated.
+Segment connecting nodes 2056025617 and 3270603406 is duplicated.
+Segment connecting nodes 2056025617 and 4046787115 is duplicated.
+Segment connecting nodes 2056025642 and 2056025643 is duplicated.
+Segment connecting nodes 2056025643 and 3787067746 is duplicated.
+Segment connecting nodes 2056025644 and 2056025645 is duplicated.
+Segment connecting nodes 2056025644 and 3787067746 is duplicated.
+Segment connecting nodes 2056025645 and 2056025646 is duplicated.
+Segment connecting nodes 2056025646 and 2056025648 is duplicated.
+Segment connecting nodes 2056025648 and 2056025649 is duplicated.
+Segment connecting nodes 2056025649 and 2056025650 is duplicated.
+Segment connecting nodes 2056025650 and 2056025651 is duplicated.
+Segment connecting nodes 2056025651 and 2056025652 is duplicated.
+Segment connecting nodes 2056025652 and 2056025653 is duplicated.
+Segment connecting nodes 2056235888 and 2056356834 is duplicated.
+Segment connecting nodes 2056235888 and 2056356919 is duplicated.
+Segment connecting nodes 2056235902 and 2056235908 is duplicated.
+Segment connecting nodes 2056235902 and 2056236020 is duplicated.
+Segment connecting nodes 2056235908 and 2056356834 is duplicated.
+Segment connecting nodes 2056235945 and 2056357006 is duplicated.
+Segment connecting nodes 2056235945 and 2056357030 is duplicated.
+Segment connecting nodes 2056236064 and 2056356919 is duplicated.
+Segment connecting nodes 2056236116 and 3844341597 is duplicated.
+Segment connecting nodes 2056236116 and 3844341602 is duplicated.
+Segment connecting nodes 2056356836 and 2063434396 is duplicated.
+Segment connecting nodes 2056356940 and 3844341602 is duplicated.
+Segment connecting nodes 2056356991 and 2056357006 is duplicated.
+Segment connecting nodes 2056356991 and 3844341587 is duplicated.
+Segment connecting nodes 2056357030 and 2056357044 is duplicated.
+Segment connecting nodes 2056357044 and 3844341597 is duplicated.
+Segment connecting nodes 2063433643 and 2090576115 is duplicated.
+Segment connecting nodes 2063433643 and 2090584810 is duplicated.
+Segment connecting nodes 2063434310 and 2063434396 is duplicated.
+Segment connecting nodes 2063434310 and 3844341609 is duplicated.
+Segment connecting nodes 2063434355 and 2063434380 is duplicated.
+Segment connecting nodes 2063434355 and 3844341609 is duplicated.
+Segment connecting nodes 2063434380 and 3844341613 is duplicated.
+Segment connecting nodes 2088247605 and 3844341584 is duplicated.
+Segment connecting nodes 2090521771 and 2090584913 is duplicated.
+Segment connecting nodes 2090576115 and 3844341613 is duplicated.
+Segment connecting nodes 2090576152 and 2090584891 is duplicated.
+Segment connecting nodes 2090576152 and 2090584913 is duplicated.
+Segment connecting nodes 2090576220 and 2090576270 is duplicated.
+Segment connecting nodes 2090576220 and 2090584891 is duplicated.
+Segment connecting nodes 2090576270 and 2090576322 is duplicated.
+Segment connecting nodes 2090576322 and 2090584810 is duplicated.
+Segment connecting nodes 2090599150 and 2090599173 is duplicated.
+Segment connecting nodes 2090599150 and 2090976955 is duplicated.
+Segment connecting nodes 2090976955 and 2090976968 is duplicated.
 Segment connecting nodes 2301154579 and 4432839770 is duplicated (discarded the area).
+Segment connecting nodes 2368950819 and 2368950840 is duplicated.
+Segment connecting nodes 2372875013 and 2372875014 is duplicated.
+Segment connecting nodes 2382889786 and 2391342707 is duplicated.
 Segment connecting nodes 2511687889 and 2511687895 in way 243810271 is duplicated.
 Segment connecting nodes 2753402593 and 2753402595 is duplicated.
 Segment connecting nodes 2868069593 and 2886633100 is duplicated.
+Segment connecting nodes 3270603405 and 4046787114 is duplicated.
+Segment connecting nodes 3343639703 and 3343639704 is duplicated.
+Segment connecting nodes 3351610923 and 3351610927 is duplicated.
+Segment connecting nodes 3368649324 and 3368649325 is duplicated.
+Segment connecting nodes 3368649325 and 3368649326 is duplicated.
+Segment connecting nodes 3368649326 and 3368649327 is duplicated.
+Segment connecting nodes 3368649327 and 3368649328 is duplicated.
+Segment connecting nodes 3368649328 and 3368649329 is duplicated.
+Segment connecting nodes 3368649329 and 3368649330 is duplicated.
+Segment connecting nodes 3368649330 and 3368649331 is duplicated.
+Segment connecting nodes 3368649331 and 3368649332 is duplicated.
+Segment connecting nodes 3368649332 and 3368649333 is duplicated.
+Segment connecting nodes 3368649333 and 3368649334 is duplicated.
+Segment connecting nodes 3368649334 and 3368649335 is duplicated.
 Segment connecting nodes 3462851333 and 3909772842 is duplicated (discarded the area).
 Segment connecting nodes 3462851333 and 3909772843 is duplicated (discarded the area).
+Segment connecting nodes 3683240206 and 3695158974 is duplicated.
+Segment connecting nodes 3683240217 and 3695158974 is duplicated.
+Segment connecting nodes 3743340903 and 3743497240 is duplicated.
+Segment connecting nodes 3743340906 and 3743497240 is duplicated.
 Segment connecting nodes 3909772838 and 3909772843 is duplicated (discarded the area).
 Segment connecting nodes 3909772839 and 3909772842 is duplicated (discarded the area).
 Segment connecting nodes 3909772853 and 3909772854 is duplicated (discarded the area).
@@ -419,6 +1017,8 @@ Segment connecting nodes 3992319737 and 3999594302 is duplicated (discarded the 
 Segment connecting nodes 3999594302 and 3999594316 is duplicated (discarded the area).
 Segment connecting nodes 3999594316 and 3999594317 is duplicated (discarded the area).
 Segment connecting nodes 4007491336 and 4007491347 is duplicated (discarded the area).
+Segment connecting nodes 4046787114 and 4046787115 is duplicated.
+Segment connecting nodes 4100173577 and 4100173578 is duplicated.
 Segment connecting nodes 4109310604 and 4109310605 is duplicated.
 Segment connecting nodes 4293419516 and 4293419519 is duplicated (discarded the area).
 Segment connecting nodes 4330678288 and 4330692051 is duplicated.
@@ -432,6 +1032,7 @@ Segment connecting nodes 4459017179 and 4459042762 is duplicated.
 Segment connecting nodes 4459042761 and 4459042762 is duplicated.
 Segment connecting nodes 4582278329 and 4582278330 is duplicated.
 Segment connecting nodes 4582278329 and 4582278330 is duplicated.
+Segment connecting nodes 4586297817 and 4586297818 is duplicated.
 Route Relation 2442336 contains Way 183433909 that does not exist in the Routino database (not a highway?).
 Route Relation 2442337 for Bicycle contains Way 436266213 that does not allow Bicycle transport; overriding.
 Turn Relation 4107347 is not needed because the 'to' way is oneway towards the 'via' node.

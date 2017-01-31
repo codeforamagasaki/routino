@@ -243,11 +243,11 @@ Each segment allowed for the chosen type of transport is drawn.
 <table>
 <tr><td>Te voet: <td><input name="transport" type="radio" value="foot" onchange="displayData('transport');">
 <tr><td>Paard: <td><input name="transport" type="radio" value="horse" onchange="displayData('transport');">
-<tr><td>Rolstoel:<td><input name="transport" type="radio" value="wheelchair" onchange="displayData('transport');">
+<tr><td>Rolstoel:<td><input name="transport" type="radio" value="wheelchair" onchange="displayData('transport');" checked>
 <tr><td>Fiets: <td><input name="transport" type="radio" value="bicycle" onchange="displayData('transport');">
 <tr><td>Brommer: <td><input name="transport" type="radio" value="moped" onchange="displayData('transport');">
 <tr><td>Motorfiets:<td><input name="transport" type="radio" value="motorcycle" onchange="displayData('transport');">
-<tr><td>Auto: <td><input name="transport" type="radio" value="motorcar" onchange="displayData('transport');" checked>
+<tr><td>Auto: <td><input name="transport" type="radio" value="motorcar" onchange="displayData('transport');">
 <tr><td>Goederen: <td><input name="transport" type="radio" value="goods" onchange="displayData('transport');">
 <tr><td>Zwaar transport: <td><input name="transport" type="radio" value="hgv" onchange="displayData('transport');">
 <tr><td>Publiek transport: <td><input name="transport" type="radio" value="psv" onchange="displayData('transport');">
@@ -266,11 +266,11 @@ Each barrier blocking the chosen type of transport is drawn.
 <table>
 <tr><td>Te voet: <td><input name="barrier" type="radio" value="foot" onchange="displayData('barrier');">
 <tr><td>Paard: <td><input name="barrier" type="radio" value="horse" onchange="displayData('barrier');">
-<tr><td>Rolstoel:<td><input name="barrier" type="radio" value="wheelchair" onchange="displayData('barrier');">
+<tr><td>Rolstoel:<td><input name="barrier" type="radio" value="wheelchair" onchange="displayData('barrier');" checked>
 <tr><td>Fiets: <td><input name="barrier" type="radio" value="bicycle" onchange="displayData('barrier');">
 <tr><td>Brommer: <td><input name="barrier" type="radio" value="moped" onchange="displayData('barrier');">
 <tr><td>Motorfiets:<td><input name="barrier" type="radio" value="motorcycle" onchange="displayData('barrier');">
-<tr><td>Auto: <td><input name="barrier" type="radio" value="motorcar" onchange="displayData('barrier');" checked>
+<tr><td>Auto: <td><input name="barrier" type="radio" value="motorcar" onchange="displayData('barrier');">
 <tr><td>Goederen: <td><input name="barrier" type="radio" value="goods" onchange="displayData('barrier');">
 <tr><td>Zwaar transport: <td><input name="barrier" type="radio" value="hgv" onchange="displayData('barrier');">
 <tr><td>Publiek transport: <td><input name="barrier" type="radio" value="psv" onchange="displayData('barrier');">

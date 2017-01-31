@@ -3,10 +3,10 @@
 
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<meta name="keywords" content="openstreetmap routing route planner">
+<meta name="keywords" content="openstreetmap routing route planner 車椅子 経路探索 ルート検索 C4AMA CodeforAmagasaki コードフォーアマガサキ OSM オープンデータ">
 <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, user-scalable=no">
 
-<title>Routino : Route Planner for OpenStreetMap Data</title>
+<title>Routino : OpenStreetMap Dataの経路計画</title>
 
 <!--
 Routino router web page.
@@ -55,7 +55,7 @@ along with this program. If not, see http://www.gnu.org/licenses/.
 
 <div class="tab_box">
 <span id="tab_options" onclick="tab_select('options');" class="tab_selected" title="経路オプション設定">オプション</span>
-<span id="tab_results" onclick="tab_select('results');" class="tab_unselected" title="経路を見る">Results</span>
+<span id="tab_results" onclick="tab_select('results');" class="tab_unselected" title="経路を見る">結果</span>
 <span id="tab_data" onclick="tab_select('data');" class="tab_unselected" title="データベース情報一覧">データ</span>
 </div>
 
@@ -63,11 +63,11 @@ along with this program. If not, see http://www.gnu.org/licenses/.
 
 <form name="form" id="form" action="#" method="get" onsubmit="return false;">
 <div class="hideshow_box">
-<span class="hideshow_title">Routino OpenStreetMap Router</span>
+<span class="hideshow_title">ルーティーノOpenStreetMap経路探索</span>
 このページはOpenStreetMapの集積データで経路探索が出来ます。
 出発点と到着点を選んで下さい（下のマーカをクリック）。経路の設定を選択し、経路を検索して下さい。
 <div class="center">
-<a target="other" href="http://www.routino.org/">ルーティーノ　ウェブサイト</a>
+<a target="other" href="http://www.routino.org/">ルーティーノ公式サイト</a>
 |
 <a target="other" href="documentation/">取扱説明書</a>
 </div>
@@ -238,8 +238,8 @@ along with this program. If not, see http://www.gnu.org/licenses/.
 <tr><td>Multiple Lanes: <td><input name="property-multilane" type="text" size="3" onchange="formSetProperty('multilane' ,'=');"><td>%<td><img alt="<" src="icons/waypoint-left.png" title="-" onmousedown="formSetProperty('multilane' ,'-');">&ndash;/+<img alt=">" src="icons/waypoint-right.png" title="+" onmousedown="formSetProperty('multilane' ,'+');">
 <tr><td>橋: <td><input name="property-bridge" type="text" size="3" onchange="formSetProperty('bridge' ,'=');"><td>%<td><img alt="<" src="icons/waypoint-left.png" title="-" onmousedown="formSetProperty('bridge' ,'-');">&ndash;/+<img alt=">" src="icons/waypoint-right.png" title="+" onmousedown="formSetProperty('bridge' ,'+');">
 <tr><td>トンネル: <td><input name="property-tunnel" type="text" size="3" onchange="formSetProperty('tunnel' ,'=');"><td>%<td><img alt="<" src="icons/waypoint-left.png" title="-" onmousedown="formSetProperty('tunnel' ,'-');">&ndash;/+<img alt=">" src="icons/waypoint-right.png" title="+" onmousedown="formSetProperty('tunnel' ,'+');">
-<tr><td>Walking Route:<td><input name="property-footroute" type="text" size="3" onchange="formSetProperty('footroute' ,'=');"><td>%<td><img alt="<" src="icons/waypoint-left.png" title="-" onmousedown="formSetProperty('footroute' ,'-');">&ndash;/+<img alt=">" src="icons/waypoint-right.png" title="+" onmousedown="formSetProperty('footroute' ,'+');">
-<tr><td>Bicycle Route:<td><input name="property-bicycleroute" type="text" size="3" onchange="formSetProperty('bicycleroute','=');"><td>%<td><img alt="<" src="icons/waypoint-left.png" title="-" onmousedown="formSetProperty('bicycleroute','-');">&ndash;/+<img alt=">" src="icons/waypoint-right.png" title="+" onmousedown="formSetProperty('bicycleroute','+');">
+<tr><td>歩道:<td><input name="property-footroute" type="text" size="3" onchange="formSetProperty('footroute' ,'=');"><td>%<td><img alt="<" src="icons/waypoint-left.png" title="-" onmousedown="formSetProperty('footroute' ,'-');">&ndash;/+<img alt=">" src="icons/waypoint-right.png" title="+" onmousedown="formSetProperty('footroute' ,'+');">
+<tr><td>自転車道:<td><input name="property-bicycleroute" type="text" size="3" onchange="formSetProperty('bicycleroute','=');"><td>%<td><img alt="<" src="icons/waypoint-left.png" title="-" onmousedown="formSetProperty('bicycleroute','-');">&ndash;/+<img alt=">" src="icons/waypoint-right.png" title="+" onmousedown="formSetProperty('bicycleroute','+');">
 </table>
 </div>
 </div>
@@ -264,13 +264,13 @@ along with this program. If not, see http://www.gnu.org/licenses/.
 
 <div class="hideshow_box">
 <span class="hideshow_title">検索</span>
-<input type="button" title="Find shortest route" id="shortest" value="Shortest Route" onclick="findRoute('shortest');" disabled="disabled">
-<input type="button" title="Find quickest route" id="quickest" value="Quickest Route" onclick="findRoute('quickest');" disabled="disabled">
+<input type="button" title="最短経路探索" id="shortest" value="最短経路" onclick="findRoute('shortest');" disabled="disabled">
+<input type="button" title="最速経路探索" id="quickest" value="最速経路" onclick="findRoute('quickest');" disabled="disabled">
 </div>
 
 <div class="hideshow_box">
 <span class="hideshow_title">リンク</span>
-<a id="permalink_url" href="router.html">Link to this map view</a>
+<a id="permalink_url" href="router.html">表示している地図へのリンク</a>
 <br>
 <a id="edit_url" target="edit" style="display: none;">OSMデータ編集</a>
 </div>
@@ -349,7 +349,7 @@ one-way restrictions (e.g. if walking).
 <b><i>Router not run</i></b>
 </div>
 <div id="result_status_running" style="display: none;">
-<b>Router running...</b>
+<b>経路探索中...</b>
 </div>
 <div id="result_status_complete" style="display: none;">
 <b>経路探索完了</b>
@@ -357,7 +357,7 @@ one-way restrictions (e.g. if walking).
 <a id="router_log_complete" target="router_log" href="#">詳細表示</a>
 </div>
 <div id="result_status_error" style="display: none;">
-<b>Router error</b>
+<b>経路異常</b>
 <br>
 <a id="router_log_error" target="router_log" href="#">詳細表示</a>
 </div>
@@ -370,10 +370,10 @@ one-way restrictions (e.g. if walking).
 <div class="hideshow_box">
 <span id="hideshow_shortest_show" onclick="hideshow_show('shortest');" class="hideshow_show">+</span>
 <span id="hideshow_shortest_hide" onclick="hideshow_hide('shortest');" class="hideshow_hide">-</span>
-<span class="hideshow_title">Shortest Route</span>
+<span class="hideshow_title">最短経路</span>
 <div id="shortest_status">
 <div id="shortest_status_no_info">
-<b><i>No Information</i></b>
+<b><i>情報が有りません</i></b>
 </div>
 <div id="shortest_status_info" style="display: none;">
 </div>
@@ -382,8 +382,8 @@ one-way restrictions (e.g. if walking).
 <div id="shortest_links" style="display: none;">
 <table>
 <tr><td>HTML directions: <td><a id="shortest_html" target="shortest_html" href="#">Open Popup</a>
-<tr><td>GPX track file: <td><a id="shortest_gpx_track" target="shortest_gpx_track" href="#">Open Popup</a>
-<tr><td>GPX route file: <td><a id="shortest_gpx_route" target="shortest_gpx_route" href="#">Open Popup</a>
+<tr><td>GPXトラックファイル: <td><a id="shortest_gpx_track" target="shortest_gpx_track" href="#">Open Popup</a>
+<tr><td>GPX経路ファイル: <td><a id="shortest_gpx_route" target="shortest_gpx_route" href="#">Open Popup</a>
 <tr><td>Full text file: <td><a id="shortest_text_all" target="shortest_text_all" href="#">Open Popup</a>
 <tr><td>テキストファイル: <td><a id="shortest_text" target="shortest_text" href="#">Open Popup</a>
 </table>
@@ -397,10 +397,10 @@ one-way restrictions (e.g. if walking).
 <div class="hideshow_box">
 <span id="hideshow_quickest_show" onclick="hideshow_show('quickest');" class="hideshow_show">+</span>
 <span id="hideshow_quickest_hide" onclick="hideshow_hide('quickest');" class="hideshow_hide">-</span>
-<span class="hideshow_title">Quickest Route</span>
+<span class="hideshow_title">最速経路</span>
 <div id="quickest_status">
 <div id="quickest_status_no_info">
-<b><i>No Information</i></b>
+<b><i>情報が有りません</i></b>
 </div>
 <div id="quickest_status_info" style="display: none;">
 </div>
@@ -409,8 +409,8 @@ one-way restrictions (e.g. if walking).
 <div id="quickest_links" style="display: none;">
 <table>
 <tr><td>HTML directions: <td><a id="quickest_html" target="quickest_html" href="#">Open Popup</a>
-<tr><td>GPX track file: <td><a id="quickest_gpx_track" target="quickest_gpx_track" href="#">Open Popup</a>
-<tr><td>GPX route file: <td><a id="quickest_gpx_route" target="quickest_gpx_route" href="#">Open Popup</a>
+<tr><td>GPXトラックファイル: <td><a id="quickest_gpx_track" target="quickest_gpx_track" href="#">Open Popup</a>
+<tr><td>GPX経路ファイル: <td><a id="quickest_gpx_route" target="quickest_gpx_route" href="#">Open Popup</a>
 <tr><td>Full text file: <td><a id="quickest_text_all" target="quickest_text_all" href="#">Open Popup</a>
 <tr><td>テキストファイル: <td><a id="quickest_text" target="quickest_text" href="#">Open Popup</a>
 </table>
@@ -477,7 +477,7 @@ route.
 To see Routino's view of the data there is a data visualiser that allows
 displaying of the underlying data in various ways.
 <br>
-<a id="visualiser_url" href="visualiser.html" target="visualiser">Link to this map view</a>
+<a id="visualiser_url" href="visualiser.html" target="visualiser">表示している地図へのリンク</a>
 </div>
 </div>
 
@@ -489,13 +489,13 @@ displaying of the underlying data in various ways.
 <div class="map" id="map">
 <noscript>
 <p>
-Javascript is <em>required</em> to use this web page because of the interactive map.
+Javascript is <em>required</em> to use this web page because of the interactive map.当サイトは動的な地図ですので、利用にはJavascriptを有効にする必要が有ります。
 </noscript>
 </div>
 <div class="attribution">
 Router: <a href="http://www.routino.org/" target="routino">Routino</a>
 |
-Geo Data: <span id="attribution_data"></span>
+地理情報: <span id="attribution_data"></span>
 |
 タイル: <span id="attribution_tile"></span>
 </div>

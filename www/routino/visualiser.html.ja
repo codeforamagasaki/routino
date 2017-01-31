@@ -6,7 +6,7 @@
 <meta name="keywords" content="openstreetmap routino verifier">
 <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, user-scalable=no">
 
-<title>Routino : Data Visualiser for Routing Data</title>
+<title>Routino : 経路情報を可視化します</title>
 
 <!--
 Routino data visualiser web page.
@@ -66,7 +66,7 @@ along with this program. If not, see http://www.gnu.org/licenses/.
 This web page allows visualisation of the data that Routino uses for routing.
 Only data relevant for routing is displayed and some will therefore be excluded.
 <div class="center">
-<a target="other" href="http://www.routino.org/">ルーティーノ　ウェブサイト</a>
+<a target="other" href="http://www.routino.org/">ルーティーノ公式サイト</a>
 |
 <a target="other" href="documentation/">取扱説明書</a>
 </div>
@@ -243,11 +243,11 @@ Each segment allowed for the chosen type of transport is drawn.
 <table>
 <tr><td>徒歩: <td><input name="transport" type="radio" value="foot" onchange="displayData('transport');">
 <tr><td>馬: <td><input name="transport" type="radio" value="horse" onchange="displayData('transport');">
-<tr><td>車椅子:<td><input name="transport" type="radio" value="wheelchair" onchange="displayData('transport');">
+<tr><td>車椅子:<td><input name="transport" type="radio" value="wheelchair" onchange="displayData('transport');" checked>
 <tr><td>自転車: <td><input name="transport" type="radio" value="bicycle" onchange="displayData('transport');">
 <tr><td>Moped: <td><input name="transport" type="radio" value="moped" onchange="displayData('transport');">
 <tr><td>バイク:<td><input name="transport" type="radio" value="motorcycle" onchange="displayData('transport');">
-<tr><td>自動車: <td><input name="transport" type="radio" value="motorcar" onchange="displayData('transport');" checked>
+<tr><td>自動車: <td><input name="transport" type="radio" value="motorcar" onchange="displayData('transport');">
 <tr><td>Goods: <td><input name="transport" type="radio" value="goods" onchange="displayData('transport');">
 <tr><td>HGV: <td><input name="transport" type="radio" value="hgv" onchange="displayData('transport');">
 <tr><td>PSV: <td><input name="transport" type="radio" value="psv" onchange="displayData('transport');">
@@ -266,11 +266,11 @@ Each barrier blocking the chosen type of transport is drawn.
 <table>
 <tr><td>徒歩: <td><input name="barrier" type="radio" value="foot" onchange="displayData('barrier');">
 <tr><td>馬: <td><input name="barrier" type="radio" value="horse" onchange="displayData('barrier');">
-<tr><td>車椅子:<td><input name="barrier" type="radio" value="wheelchair" onchange="displayData('barrier');">
+<tr><td>車椅子:<td><input name="barrier" type="radio" value="wheelchair" onchange="displayData('barrier');" checked>
 <tr><td>自転車: <td><input name="barrier" type="radio" value="bicycle" onchange="displayData('barrier');">
 <tr><td>Moped: <td><input name="barrier" type="radio" value="moped" onchange="displayData('barrier');">
 <tr><td>バイク:<td><input name="barrier" type="radio" value="motorcycle" onchange="displayData('barrier');">
-<tr><td>自動車: <td><input name="barrier" type="radio" value="motorcar" onchange="displayData('barrier');" checked>
+<tr><td>自動車: <td><input name="barrier" type="radio" value="motorcar" onchange="displayData('barrier');">
 <tr><td>Goods: <td><input name="barrier" type="radio" value="goods" onchange="displayData('barrier');">
 <tr><td>HGV: <td><input name="barrier" type="radio" value="hgv" onchange="displayData('barrier');">
 <tr><td>PSV: <td><input name="barrier" type="radio" value="psv" onchange="displayData('barrier');">
@@ -380,8 +380,8 @@ Each segment of the highways with a particular property is drawn.
 <tr><td>Multiple Lanes: <td><input name="property" type="radio" value="multilane" onchange="displayData('property');">
 <tr><td>橋: <td><input name="property" type="radio" value="bridge" onchange="displayData('property');">
 <tr><td>トンネル: <td><input name="property" type="radio" value="tunnel" onchange="displayData('property');">
-<tr><td>Walking Route: <td><input name="property" type="radio" value="footroute" onchange="displayData('property');">
-<tr><td>Bicycle Route: <td><input name="property" type="radio" value="bicycleroute" onchange="displayData('property');">
+<tr><td>歩道: <td><input name="property" type="radio" value="footroute" onchange="displayData('property');">
+<tr><td>自転車道: <td><input name="property" type="radio" value="bicycleroute" onchange="displayData('property');">
 </table>
 </form>
 </div>
@@ -402,7 +402,7 @@ Potential problems found by Routino when processing the input data.
 
 <div class="hideshow_box">
 <span class="hideshow_title">リンク</span>
-<a id="permalink_url" href="visualiser.html">Link to this map view</a>
+<a id="permalink_url" href="visualiser.html">表示している地図へのリンク</a>
 <br>
 <a id="edit_url" target="edit" style="display: none;">OSMデータ編集</a>
 </div>
@@ -435,7 +435,7 @@ again.
 <span class="hideshow_title">Routino Router</span>
 マップ上で経路探索を行うには下のリンクを使って下さい。
 <br>
-<a id="router_url" href="router.html" target="router">Link to this map view</a>
+<a id="router_url" href="router.html" target="router">表示している地図へのリンク</a>
 </div>
 </div>
 
@@ -455,13 +455,13 @@ again.
 <div class="map" id="map">
 <noscript>
 <p>
-Javascript is <em>required</em> to use this web page because of the interactive map.
+Javascript is <em>required</em> to use this web page because of the interactive map.当サイトは動的な地図ですので、利用にはJavascriptを有効にする必要が有ります。
 </noscript>
 </div>
 <div class="attribution">
 Router: <a href="http://www.routino.org/" target="routino">Routino</a>
 |
-Geo Data: <span id="attribution_data"></span>
+地理情報: <span id="attribution_data"></span>
 |
 タイル: <span id="attribution_tile"></span>
 </div>
