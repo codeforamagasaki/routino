@@ -120,7 +120,7 @@ along with this program. If not, see http://www.gnu.org/licenses/.
 <div class="hideshow_box">
 <span id="hideshow_waypoint_show" onclick="hideshow_show('waypoint');" class="hideshow_hide">+</span>
 <span id="hideshow_waypoint_hide" onclick="hideshow_hide('waypoint');" class="hideshow_show">-</span>
-<span class="hideshow_title">Waypoints</span>
+<span class="hideshow_title">地点</span>
 <div id="hideshow_waypoint_div">
 <div id="waypoints">
 <div id="waypointXXX" class="waypoint" style="display: none;">
@@ -135,15 +135,15 @@ along with this program. If not, see http://www.gnu.org/licenses/.
 <div class="waypoint-buttons" style="display: inline-block;">
 <img alt="?" src="icons/waypoint-search.png" title="場所検索" onmousedown="markerSearch(XXX);" >
 <img alt="G" src="icons/waypoint-locate.png" title="現在地取得" onmousedown="markerLocate(XXX);" >
-<img alt="O" src="icons/waypoint-recentre.png" title="Centre map on this waypoint" onmousedown="markerRecentre(XXX);">
-<img alt="^" src="icons/waypoint-up.png" title="Move this waypoint up" onmousedown="markerMoveUp(XXX);" >
-<img alt="+" src="icons/waypoint-add.png" title="Add waypoint after this one" onmousedown="markerAddAfter(XXX);">
+<img alt="O" src="icons/waypoint-recentre.png" title="この地点を地図の中心にする" onmousedown="markerRecentre(XXX);">
+<img alt="^" src="icons/waypoint-up.png" title="この地点を前に移動する" onmousedown="markerMoveUp(XXX);" >
+<img alt="+" src="icons/waypoint-add.png" title="この後に地点を追加する" onmousedown="markerAddAfter(XXX);">
 <br>
 <img alt="#" src="icons/waypoint-coords.png" title="Coordinates for location" onmousedown="markerCoords(XXX);" >
 <img alt="~" src="icons/waypoint-home.png" title="Toggle as home location" onmousedown="markerHome(XXX);" >
-<img alt="o" src="icons/waypoint-centre.png" title="Centre this waypoint on map" onmousedown="markerCentre(XXX);" >
-<img alt="v" src="icons/waypoint-down.png" title="Move this waypoint down" onmousedown="markerMoveDown(XXX);">
-<img alt="-" src="icons/waypoint-remove.png" title="Remove this waypoint" onmousedown="markerRemove(XXX);" >
+<img alt="o" src="icons/waypoint-centre.png" title="地図の中心をこの地点にする" onmousedown="markerCentre(XXX);" >
+<img alt="v" src="icons/waypoint-down.png" title="この地点を後に移動する" onmousedown="markerMoveDown(XXX);">
+<img alt="-" src="icons/waypoint-remove.png" title="この地点を削除する" onmousedown="markerRemove(XXX);" >
 </div>
 <div id="searchresultsXXX" style="display: none;">
 </div>
@@ -293,7 +293,7 @@ properties and other restrictions from the options above.
 Select "Shortest" or "Quickest" to calculate the route and display it
 on the map.
 <p>
-<b>Waypoints</b>
+<b>地点</b>
 <br>
 Clicking on the marker icons will toggle the display of them on the map.
 When a route is calculated it will visit (as close as possible

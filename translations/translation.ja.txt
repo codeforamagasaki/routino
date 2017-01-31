@@ -59,7 +59,7 @@
 %%route_shortest%%	最短
 %%route_quickest%%	最速
 
-%%output-html_waypoint_waypoint%%	Waypoint
+%%output-html_waypoint_waypoint%%	地点
 %%output-html_waypoint_junction%%	ジャンクション
 %%output-html_waypoint_roundabout%%	環状交差点
 %%output-html_title%%	%s ルート
@@ -102,7 +102,7 @@
 @@DOCUMENTATION@@	取扱説明書
 
 @@LANGUAGE-BOX@@	言語
-@@WAYPOINTS-BOX@@	Waypoints
+@@WAYPOINTS-BOX@@	地点
 @@TRANSPORT-TYPE-BOX@@	移動方法
 @@HIGHWAY-PREFERENCES-BOX@@	Highway Preferences
 @@SPEED-LIMITS-BOX@@	速度制限
@@ -125,14 +125,14 @@
 @@WAYPOINT-LOCATION@@	Waypoint XXX Location
 @@WAYPOINT-SEARCH@@	場所検索
 @@WAYPOINT-GET@@	現在地取得
-@@WAYPOINT-CENTRE1@@	Centre map on this waypoint
-@@WAYPOINT-UP@@	Move this waypoint up
-@@WAYPOINT-ADD@@	Add waypoint after this one
+@@WAYPOINT-CENTRE1@@	この地点を地図の中心にする
+@@WAYPOINT-UP@@	この地点を前に移動する
+@@WAYPOINT-ADD@@	この後に地点を追加する
 @@WAYPOINT-COORDS@@	Coordinates for location
 @@WAYPOINT-HOME@@	Toggle as home location
-@@WAYPOINT-CENTRE2@@	Centre this waypoint on map
-@@WAYPOINT-DOWN@@	Move this waypoint down
-@@WAYPOINT-REMOVE@@	Remove this waypoint
+@@WAYPOINT-CENTRE2@@	地図の中心をこの地点にする
+@@WAYPOINT-DOWN@@	この地点を後に移動する
+@@WAYPOINT-REMOVE@@	この地点を削除する
 @@WAYPOINT-REVERSE@@	Reverse order of waypoints
 @@WAYPOINT-REVERSE-BUTTON@@	Reverse order
 @@WAYPOINT-LOOP@@	Add a new waypoint to make a loop
@@ -353,7 +353,7 @@ properties and other restrictions from the options above.
 Select "Shortest" or "Quickest" to calculate the route and display it
 on the map.
 <p>
-<b>Waypoints</b>
+<b>地点</b>
 <br>
 Clicking on the marker icons will toggle the display of them on the map.
 When a route is calculated it will visit (as close as possible
